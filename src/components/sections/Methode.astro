@@ -1,0 +1,112 @@
+---
+import { Image } from "astro:assets";
+import MyImage from "../MyImage.astro";
+---
+
+<section>
+  <div
+    class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-24 scroll-mt-12"
+  >
+    <div
+      class="grid grid-cols-1 gap-4 mt-6 items-center list-none lg:grid-cols-2 lg:gap-24"
+    >
+      <div class="text-center lg:text-left">
+        <div>
+          <p
+            class="text-4xl tracking-tight font-medium text-black md:text-5xl font-display"
+          >
+            Notre méthode
+          </p>
+          <ul class="list-disc p-8 child:my-4">
+            <li>Conseil bienveillant</li>
+            <li>À l'écoute de vos demandes</li>
+            <li>Gestion de projet agile</li>
+            <li>Formation</li>
+            <li>Monitoring des sites</li>
+            <li>Analyse des performances</li>
+            <li>Audit de sécurité</li>
+            <li>Maintenance corrective et évolutive</li>
+            <li>Facturation à la tâche ou par temps passé</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="lg:mt-0 mt-12 hidden lg:block rounded-3xl  border"
+      >
+        <div class="bg-gray-100 p-8 rounded-2xl">
+          <MyImage
+            imageSrc={"/src/assets/images/gestion-de-projet.svg"}
+            imageAlt="Gestion de projet"
+            imageClasses={"w-full h-auto"}
+            imageCaption={"Inforgraphie créée par Katemangostar"}
+            imageAuthorLink={"https://www.freepik.com/author/katemangostar"}
+          />
+          <!-- <img
+            alt="Lexingtøn thumbnail"
+            class="border lg:rounded-3xl object-cover rounded shadow-2xl"
+            src="https://brightlight.lexingtonthemes.com/assets/dashboard.svg"
+          /> -->
+        </div>
+      </div>
+    </div>
+    <div class="mt-24 w-full gap-12 grid grid-cols-1 lg:gap-24 lg:grid-cols-3">
+      <div>
+        <div class="gap-3 lg:inline-flex lg:items-center">
+          <div
+            class="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10"
+          >
+            <ion-icon
+              aria-label="scan outline"
+              class="hydrated md h-5 w-5"
+              name="scan-outline"
+              role="img"></ion-icon>
+          </div><p
+            class="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0"
+          >
+            Consulting
+          </p>
+        </div><p class="text-gray-500 text-sm mt-4">
+          Une étroite collaboration pour trouver les solutions adaptées à votre
+          projet
+        </p>
+      </div><div>
+        <div class="gap-3 lg:inline-flex lg:items-center">
+          <div
+            class="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10"
+          >
+            <ion-icon
+              aria-label="scan outline"
+              class="hydrated md h-5 w-5"
+              name="scan-outline"
+              role="img"></ion-icon>
+          </div><p
+            class="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0"
+          >
+            Compétences
+          </p>
+        </div><p class="text-gray-500 text-sm mt-4">
+          Intégrations responsives, développements spécifiques, migrations,
+          hébergement
+        </p>
+      </div><div>
+        <div class="gap-3 lg:inline-flex lg:items-center">
+          <div
+            class="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10"
+          >
+            <ion-icon
+              aria-label="scan outline"
+              class="hydrated md h-5 w-5"
+              name="scan-outline"
+              role="img"></ion-icon>
+          </div><p
+            class="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0"
+          >
+            Réactivité
+          </p>
+        </div><p class="text-gray-500 text-sm mt-4">
+          Une agence à taille humaine pour un traitement rapide de votre demande
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

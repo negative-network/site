@@ -1,0 +1,8 @@
+---
+import { Image } from 'astro:assets';
+
+const { imageSrc, imageAlt, imageClasses } = Astro.props;
+
+---
+
+<Image src={import(imageSrc)} alt={imageAlt} class:list={imageClasses}/>

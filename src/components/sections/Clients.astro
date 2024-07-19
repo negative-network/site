@@ -1,0 +1,42 @@
+---
+import MyImage from "../MyImage.astro";
+import clients from "../../content/clients.json";
+
+const clientsImages = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/images/logos/*.{jpeg,jpg,png,gif,svg,webp}"
+);
+
+---
+
+<section class=" bg-gray-200 py-24">
+    <div class="max-w-4xl m-auto flex flex-wrap items-center justify-center">
+      <h2
+        class="text-center text-4xl tracking-tight font-medium text-black md:text-5xl font-display mb-20"
+      >
+        Parmi nos clients
+      </h2>
+      <div class="max-w-7xl m-auto flex flex-wrap items-center justify-center">
+        {
+          clients
+            .filter((client) => client.highlight)
+            .map((client) => (
+              <div class="p-4 flex-col items-center justify-center m-4">
+                <a href={client.url} target="_blank" title={client.name}>
+                  {client.logo ? (
+                    <MyImage
+                      imageSrc={
+                        "/src/assets/images/clients/logos/" + client.logo
+                      }
+                      imageAlt={client.name}
+                      imageClasses={"h-12 w-auto "}
+                    />
+                  ) : (
+                    <p class="text-center text-gray-400">{client.name}</p>
+                  )}
+                </a>
+              </div>
+            ))
+        }
+      </div>
+    </div>
+  </section>
