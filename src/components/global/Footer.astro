@@ -1,17 +1,20 @@
 ---
 import Menu from "./Menu.astro";
+import Cta from "../global/Cta.astro";
 import { Image } from "astro:assets";
 import logo from "/src/assets/images/logo-NN.gif";
 ---
 
+<Cta />
+
 <footer>
   <div
-    class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-24"
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12"
   >
     <div class="flex">
       <a
         href="/"
-        class="xl:col-span-1 text-black inline-flex items-center gap-3"
+        class="inline-flex items-center gap-3 text-black xl:col-span-1"
       >
         <Image
           src={logo}
@@ -24,25 +27,13 @@ import logo from "/src/assets/images/logo-NN.gif";
       <Menu />
     </div>
 
-    <!-- <div class="flex mt-10 ">
-      <p>
-        <small>
-          Negative Network SARL <br>
-          CDV 21264 <br>
-          350, chemin du Pré neuf <br>
-          38350 LA MURE (D'ISERE) FRANCE <br> <br>
-          09 72 32 07 02 <br> 
-          contact@negative-network.com <br>
-        </small>
-      </p>
-    </div> -->
   </div>
 </footer>
 <footer class="bg-white">
   <div
-    class="mx-auto w-full lg:px-24 max-w-7xl md:px-12 items-center px-8 py-6"
+    class="items-center w-full px-8 py-6 mx-auto lg:px-24 max-w-7xl md:px-12"
   >
-    <div class="border-t pt-6 flex">
+    <div class="flex pt-6 border-t">
       <p class="text-sm text-neutral-600 lg:col-span-2">
         © {new Date().getFullYear()} Negative Network
       </p>

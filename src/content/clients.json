@@ -211,7 +211,6 @@
             "name" : "BMID",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://bmid.eu/",
             "image" : "/src/assets/images/clients/portfolio/bmid.png"
         },
         {
@@ -249,7 +248,6 @@
             "name" : "Dapledge",
             "location" : "Berlin, Allemagne",
             "description" : "",
-            "url" : "https://dapledge.com",
             "image" : "/src/assets/images/clients/portfolio/dapledge.png"
         },
         {
@@ -331,7 +329,6 @@
             "name" : "KLID",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://klid.org/",
             "image" : "/src/assets/images/clients/portfolio/klid.png"
         },
         {
@@ -339,7 +336,6 @@
             "name" : "La Fonction",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://la-fonction.com",
             "image" : "/src/assets/images/clients/portfolio/la-fonction.png"
         },
         {
@@ -441,7 +437,6 @@
             "name" : "Sylvain Becquart",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://sylvain-becquart.fr",
             "image" : "/src/assets/images/clients/portfolio/sb.png"
         },
         {
@@ -449,7 +444,6 @@
             "name" : "SBAI",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://sbai.eu",
             "image" : "/src/assets/images/clients/portfolio/sbai.png"
         },
         {
@@ -477,7 +471,6 @@
             "name" : "Transmanche",
             "location" : "Paris, France",
             "description" : "",
-            "url" : "https://transmanche.net",
             "image" : "/src/assets/images/clients/portfolio/transmanche.png"
         },
         {

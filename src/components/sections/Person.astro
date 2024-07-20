@@ -28,7 +28,7 @@ const { person } = Astro.props;
 
   {
     person.paragraphs
-      ? person.paragraphs.map((paragraph) => <p>{paragraph}</p>)
+      ? person.paragraphs.map((paragraph) => <p class="mb-2">{paragraph}</p>)
       : null
   }
 
