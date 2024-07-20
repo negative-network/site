@@ -1,6 +1,6 @@
 [
         {
-            "tags" : "wp ooii ong",
+            "tags" : "wp ooii ong institutionnel highlight",
             "name" : "Acatfrance",
             "location" : "Paris, France",
             "description" : "L'ACAT est une ONG qui lutte contre la torture et la peine de mort.",
@@ -22,7 +22,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ooii ong spip highlight",
+            "tags" : "wp ooii ong spip highlight institutionnel",
             "name" : "FIDH",
             "location" : "Paris, France",
             "description" : "",
@@ -32,7 +32,7 @@
             "highlight" : true
         },
         {
-            "tags" : "formations",
+            "tags" : "formations highlight",
             "name" : "Université Grenoble Alpes",
             "location" : "Grenoble, France",
             "description" :
@@ -43,7 +43,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ooii ong",
+            "tags" : "wp ooii ong institutionnel highlight",
             "name" : "Acting For Life",
             "location" : "Paris, France",
             "description" :
@@ -54,7 +54,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ooii ong",
+            "tags" : "wp ooii ong institutionnel",
             "name" : "AFPS",
             "location" : "Paris, France",
             "description" : "L'AFPS est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté.",
@@ -75,7 +75,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ooii mini ong",
+            "tags" : "wp ooii mini ong ",
             "name" : "AVSF Agroécologie",
             "location" : "Paris, France",
             "description" : "",
@@ -91,7 +91,7 @@
             "image" : "/src/assets/images/clients/portfolio/avsf-biodiversite.png"
         },
         {
-            "tags" : "wp ooii mini ong",
+            "tags" : "wp ooii mini ong ",
             "name" : "AVSF Consultation",
             "location" : "Paris, France",
             "description" : "",
@@ -99,7 +99,7 @@
             "image" : "/src/assets/images/clients/portfolio/avsf-consultation.png"
         },
         {
-            "tags" : "wp ooii mini ong",
+            "tags" : "wp ooii mini ong ",
             "name" : "AVSF Elevage",
             "location" : "Paris, France",
             "description" : "",
@@ -107,7 +107,7 @@
             "image" : "/src/assets/images/clients/portfolio/avsf-elevage.png"
         },
         {
-            "tags" : "wp mindme mini ong",
+            "tags" : "wp mindme mini ong ",
             "name" : "AVSF Semences",
             "location" : "Paris, France",
             "description" : "",
@@ -115,7 +115,7 @@
             "image" : "/src/assets/images/clients/portfolio/avsf-paysans.png"
         },
         {
-            "tags" : "wp lefebvre mini ong",
+            "tags" : "wp lefebvre mini ong ",
             "name" : "AVSF Pesticides",
             "location" : "Paris, France",
             "description" : "",
@@ -155,7 +155,7 @@
             "image" : "/src/assets/images/clients/portfolio/avsf-speculation.png"
         },
         {
-            "tags" : "wp ooii ong",
+            "tags" : "wp ooii ong institutionnel",
             "name" : "AVSF",
             "location" : "Paris, France",
             "description" : "",
@@ -165,7 +165,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ooii shop ong highlight",
+            "tags" : "wp ooii shop ong institutionnel highlight",
             "name" : "BICE",
             "location" : "Paris, France, Genève, Suisse",
             "description" : "Le BICE est une ONG qui a pour mission de protéger les enfants dans le monde entier.",
@@ -199,6 +199,14 @@
             "image" : "/src/assets/images/clients/portfolio/bice.png"
         },
         {
+            "tags" : "wp ong formations highlight",
+            "name" : "BICE Documentation",
+            "location" : "Paris, France, Genève, Suisse",
+            "description" : "Site de ressources documentaires du BICE",
+            "url" : "https://documentation.bice.org/",
+            "image" : "/src/assets/images/clients/portfolio/bice-documentation.png"
+        },
+        {
             "tags" : "wp ooii old",
             "name" : "BMID",
             "location" : "Paris, France",
@@ -207,7 +215,7 @@
             "image" : "/src/assets/images/clients/portfolio/bmid.png"
         },
         {
-            "tags" : "wp ooii highlight",
+            "tags" : "wp ooii",
             "name" : "BP2R",
             "location" : "Paris, France",
             "description" :
@@ -293,7 +301,7 @@
             "image" : "/src/assets/images/clients/portfolio/ethiquable.png"
         },
         {
-            "tags" : "formations highlight",
+            "tags" : "formations",
             "name" : "Handigital Formation",
             "location" : "Grenoble, France",
             "description" : "",
@@ -400,7 +408,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ong become-creative shop highlight",
+            "tags" : "wp ong institutionnel become-creative shop highlight",
             "name" : "Primo Levi (Site)",
             "location" : "Paris, France",
             "description" :
@@ -411,7 +419,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ong",
+            "tags" : "wp ong institutionnel",
             "name" : "Première Urgence Internationale",
             "location" : "Paris, France",
             "description" : "",
@@ -421,7 +429,7 @@
             "highlight" : true
         },
         {
-            "tags" : "wp ong",
+            "tags" : "wp ong institutionnel",
             "name" : "Queme",
             "location" : "Vietnam",
             "description" : "",

@@ -1,12 +1,38 @@
 [
   {
-    "highlight": "Highlight",
-    "wp": "Vitrine",
-    "shop": "Boutique",
-    "mini": "Mini-site",
-    "formations": "Formations",
-    "ong": "ONG",
-    "old": "Anciens projets",
-    "*": "Tout"
+    "key": "highlight",
+    "name": "Highlight"
+  },
+  {
+    "key": "wp",
+    "name": "Vitrine"
+  },
+  {
+    "key": "institutionnel",
+    "name": "Institutionnel"
+  },
+  {
+    "key": "shop",
+    "name": "Boutique"
+  },
+  {
+    "key": "mini",
+    "name": "Mini-site"
+  },
+  {
+    "key": "formations",
+    "name": "Formations"
+  },
+  {
+    "key": "ong",
+    "name": "ONG"
+  },
+  {
+    "key": "old",
+    "name": "Anciens projets"
+  },
+  {
+    "key": "*",
+    "name": "Tous"
   }
 ]

@@ -1,37 +1,109 @@
 ---
 import MyImage from "../MyImage.astro";
+import tags from "../../content/tags.json";
 import clients from "../../content/clients.json";
 const clientsImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/images/logos/*.{jpeg,jpg,png,gif,svg,webp}"
 );
 ---
 
-<section class="py-24 bg-gray-200 ">
-    <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
-      <h2
-        class="mb-20 text-4xl font-medium tracking-tight text-center text-black md:text-5xl font-display"
-      >
-        Portfolio
-      </h2>
-      <div class="flex flex-wrap items-center justify-center m-auto max-w-7xl">
-        {
-          clients
-            .map((client) => (
-              <div class="flex-col items-center justify-center p-4 m-4">
-                <a href={client.url} target="_blank" title={client.name}>
-                  {client.logo ? (
-                    <MyImage
-                      imageSrc={client.image}
-                      imageAlt={client.name}
-                      imageClasses={"h-12 w-auto"}
-                    />
-                  ) : (
-                    <p class="text-center text-gray-400">{client.name}</p>
-                  )}
-                </a>
+<section class="py-24 bg-gray-200">
+  <div class="flex flex-col items-center justify-center m-auto max-w-7xl">
+    <h1
+      class="mb-10 text-4xl font-medium tracking-tight text-center text-black md:text-5xl font-display"
+    >
+      Portfolio
+    </h1>
+
+    <p class="mb-20 text-lg">
+        Découvrez une sélection de projets réalisés pour nos clients.
+    </p>
+
+    <ul class="sticky z-10 flex flex-wrap items-center p-2 mb-10 rounded-lg top-4 bg-slate-100">
+      {
+        tags.map((tag) => (
+          <li
+            class={
+              (tag.key.localeCompare("highlight") == 0
+                ? "bg-black text-white"
+                : "") +
+              " filters py-0 m-1 inline-block cursor-pointer rounded-md px-5 font-heading text-sm text-black transition duration-100 hover:bg-black hover:text-white"
+            }
+            data-filter={
+              tag.key.localeCompare("*") == 0 ? tag.key : "." + tag.key
+            }
+          >
+            {tag.name}
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="w-full px-4 mb-20 isotope-grid lg:mb-0">
+      {
+        clients.map((client) => (
+          <div
+            class={
+              "grid-item p-10 text-center " +
+              client.tags +
+              (client.large ? " grid-item--width2" : "")
+            }
+          >
+            <a href={client.url} target="_blank" title={client.description}>
+              <div class="box-border border-1">
+                <p class="mb-4 text-center font-heading">{client.name}</p>
+                <p class="hidden p-4 mb-2 text-sm text-center">
+                  {client.description}
+                </p>
+                {client.image ? (
+                  <MyImage
+                    imageSrc={client.image}
+                    imageAlt={client.name}
+                    imageClasses={""}
+                  />
+                ) : null}
               </div>
-            ))
-        }
-      </div>
+            </a>
+          </div>
+        ))
+      }
     </div>
-  </section>
+  </div>
+</section>
+
+<style>
+  .grid-item {
+    width: 32%;
+    text-align: center;
+  }
+</style>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"
+></script>
+<script>
+  window.addEventListener("load", (event) => {
+    var iso = new Isotope(".isotope-grid", {
+      itemSelector: ".grid-item",
+      percentPosition: true,
+      lazyLoad: true,
+      filter: ".highlight",
+    });
+
+    var elements = document.getElementsByClassName("filters");
+
+    Array.from(elements).forEach(function (element) {
+      element.addEventListener("click", function () {
+        Array.from(elements).forEach(function (elem) {
+          elem.classList.remove("bg-black", "text-white");
+        });
+
+        this.classList.add("bg-black", "text-white");
+
+        let filterValue = this.dataset.filter;
+        iso.arrange({
+          filter: filterValue,
+        });
+      });
+    });
+  });
+</script>
