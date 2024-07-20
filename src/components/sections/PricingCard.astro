@@ -1,0 +1,44 @@
+---
+const { title, description, from, price, features } = Astro.props;
+---
+
+<section class="flex flex-col px-6 rounded-3xl lg:py-8">
+
+  <h3 class="mt-5 text-lg text-black font-display">
+    {title}
+  </h3>
+  <p class="mt-2 text-sm text-gray-500">
+    {description}
+  </p>
+  <p
+    class="order-first text-5xl font-light tracking-tight text-black font-display"
+  >
+    <span class="text-sm">{from}</span> <br>
+    {price}
+  </p>
+  <ul
+    role="list"
+    class="flex flex-col order-last mt-10 text-sm text-gray-600 gap-y-3"
+  >
+    {
+      features.map((feature) => (
+        <li class="flex items-center">
+          <>
+            <ion-icon
+              class="w-4 h-4 md hydrated"
+              name="checkmark-outline"
+              role="img"
+              aria-label="checkmark outline"
+            />
+            <span class="ml-4">{feature}</span>
+          </>
+        </li>
+      ))
+    }
+  </ul>
+  <a
+    class="inline-flex items-center justify-center w-full h-12 px-6 py-3 mt-8 text-center text-black transition duration-200 ease-in-out transform bg-white border hover:bg-gray-200 hover:border-gray-200 rounded-xl focus:outline-none"
+    aria-label="Wannabe tier"
+    href="/contact">Nous contacter</a
+  >
+</section>

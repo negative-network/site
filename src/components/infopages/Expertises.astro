@@ -1,0 +1,114 @@
+---
+import FaqQA from "../sections/FaqQA.astro";
+---
+
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12 scroll-mt-12"
+  >
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12">
+      <div class="text-center lg:text-left">
+        <div>
+          <p
+            class="text-3xl font-normal tracking-tight text-black font-display"
+          >
+            Expertises
+          </p>
+          <p class="mt-4 text-base text-zinc-500">
+            15 ans d'experience dans le développement web et mobile nous ont
+            permis de maitriser les technologies les plus récentes et de
+            proposer des solutions innovantes.
+          </p>
+        </div>
+      </div>
+      <div
+        x-data="{
+  activeAccordion: '',
+  setActiveAccordion(id) {
+  this.activeAccordion = (this.activeAccordion == id) ? '' : id
+  }
+  }"
+        class="relative w-full mx-auto font-normal lg:col-span-2"
+      >
+      <FaqQA
+        question="Integration responsive"
+        answer="Notre expertise en intégration responsive nous permet de créer des sites et applications qui s’ajustent automatiquement à la taille de l’écran, offrant une navigation fluide et intuitive sur mobile, tablette et ordinateur."
+      />
+      <FaqQA
+        question="WordPress"
+        answer="Nous sommes spécialisés dans le développement de sites web et applications sur WordPress, le CMS le plus utilisé au monde. Nous concevons des sites sur-mesure, optimisés pour le référencement naturel et la performance, et nous vous accompagnons dans la création de votre site vitrine, blog, e-commerce ou application web."
+      />
+
+      <FaqQA
+        question="Laravel"
+        answer="Nous développons des applications web et mobiles sur Laravel, le framework PHP le plus populaire. Nous concevons des solutions sur-mesure, sécurisées et performantes, en utilisant les dernières technologies et les meilleures pratiques de développement. Nous vous accompagnons dans la création de votre application web, e-commerce, CRM ou API."
+      />
+
+      <FaqQA
+        question="Astro Js"
+        answer="Nous utilisons Astro JS pour créer des sites web rapides, performants et sécurisés. Astro JS est un framework de développement web moderne, qui permet de générer des sites statiques et dynamiques, en utilisant les technologies les plus récentes et les meilleures pratiques de développement."
+      />
+
+      <FaqQA
+        question="Angular"
+        answer="Nous développons des applications web et mobiles sur Angular, le puissant framework JavaScript de Google. Nous concevons des solutions sur-mesure, évolutives et performantes, en utilisant les dernières technologies et les meilleures pratiques de développement."
+      />
+
+      <FaqQA
+        question="Migrations de données"
+        answer="Nous vous accompagnons dans la migration de vos données vers un nouveau système, en garantissant l’intégrité et la confidentialité de vos données, et en assurant la continuité de votre activité."
+      />
+
+      <FaqQA
+        question="AMO"
+        answer="Nous vous apportons notre expertise et notre expérience pour vous conseiller et vous guider dans la définition de vos besoins, la rédaction de vos cahiers des charges, le suivi de vos projets et la gestion de vos prestataires."
+      />
+
+      <FaqQA
+        question="Hébergement"
+        answer="Nous vous proposons des solutions d’hébergement sur-mesure, adaptées à vos besoins et à votre budget. Nous vous accompagnons dans le choix de votre hébergeur, la configuration de votre serveur, la sécurisation de vos données et la gestion de vos sauvegardes, pour garantir la disponibilité, la performance et la sécurité de votre site ou application."
+      />
+
+      <FaqQA
+        question="Asministration Système"
+        answer="Nous vous apportons notre expertise et notre expérience pour vous conseiller et vous guider dans la configuration de vos serveurs, la sécurisation de vos données, la gestion de vos sauvegardes et la surveillance de vos systèmes, pour garantir la disponibilité, la performance et la sécurité de vos services."
+      />
+
+      <FaqQA
+        question="Performances et eco-conception"
+        answer="Nous optimisons les performances et l’éco-conception de vos sites web et applications, pour garantir une expérience utilisateur optimale et respectueuse de l’environnement. Nous vous accompagnons dans l’optimisation de vos performances, la réduction de votre empreinte écologique et la mise en place de bonnes pratiques de développement, pour garantir la performance, la sécurité et la durabilité de vos services."
+      />
+
+      <FaqQA
+        question="Méthode Agile"
+        answer="Nous utilisons la méthode Agile pour gérer vos projets web et mobiles de manière collaborative, itérative et incrémentale. Nous vous accompagnons dans la définition de vos besoins, la planification de vos projets, la réalisation de vos développements et la livraison de vos services, en favorisant la communication, la transparence et la réactivité, pour garantir la réussite de vos projets."
+      />
+
+      <FaqQA
+        question="Sécurité"
+        answer="Nous sécurisons vos sites web et applications pour protéger vos données et vos utilisateurs des menaces et des attaques. Nous vous accompagnons dans la sécurisation de vos systèmes, la protection de vos données, la détection de vos failles et la correction de vos vulnérabilités, pour garantir la confidentialité, l’intégrité et la disponibilité de vos services."
+      />
+
+      <FaqQA
+        question="RGPD"
+        answer="Nous vous accompagnons dans la mise en conformité de vos sites web et applications avec le RGPD, le règlement européen sur la protection des données. Nous vous aidons à identifier les données personnelles que vous traitez, à évaluer les risques que vous encourez, à mettre en place les mesures de sécurité nécessaires et à documenter vos traitements, pour garantir le respect de la vie privée de vos utilisateurs."
+      />
+
+      <FaqQA
+        question="Formations"
+        answer="Nous proposons des formations sur-mesure pour vous accompagner dans l’apprentissage des technologies web et mobile. Nous vous formons à la création de sites web et applications, à l’utilisation des outils de développement, à la gestion de vos projets, à la sécurité de vos systèmes et à la performance de vos services, pour vous permettre d’acquérir les compétences nécessaires à la réussite de vos projets."
+      />
+
+      <FaqQA
+        question="Consulting"
+        answer="Nous réalisons des missions de consulting pour vous accompagner dans la définition de vos besoins, la planification de vos projets, la réalisation de vos développements et la livraison de vos services. Nous vous apportons notre expertise et notre expérience pour vous conseiller et vous guider dans la réussite de vos projets, en favorisant la"
+      />
+
+      <FaqQA
+        question="Maintenance"
+        answer="Nous proposons des contrats de maintenance pour vous accompagner dans la gestion et l’évolution de vos sites web et applications. Nous vous apportons notre expertise et notre"
+      />
+      </div>
+    </div>
+  </div>
+</section>

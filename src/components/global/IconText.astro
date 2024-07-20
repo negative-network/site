@@ -1,0 +1,23 @@
+---
+const { icon, title, description } = Astro.props;
+---
+
+<div>
+  <div>
+    <div
+      class="flex items-center justify-center w-16 h-16 bg-gray-100 text-accent-500 rounded-xl lg:mx-auto"
+    >
+      <ion-icon
+        aria-label="{icon}"
+        class="w-8 h-8 hydrated md"
+        name={icon}
+        role="img"></ion-icon>
+    </div><p
+      class="mt-4 text-lg font-semibold leading-6 tracking-tight text-black font-display"
+    >
+      {title}
+    </p>
+  </div><div class="mt-4 text-sm text-gray-500">
+    {description}
+  </div>
+</div>

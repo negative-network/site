@@ -1,21 +1,66 @@
 <section class="bg-zinc-100">
-  <div class="max-w-7xl mx-auto flex-col justify-center items-center p-40">
+  <div class="flex-col items-center justify-center p-40 mx-auto max-w-7xl">
     <h2
-    class="text-4xl tracking-tight font-medium text-black md:text-5xl font-display">Un projet ? Une question ? <br>
-    Contactez-nous !</h2>
+      class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+    >
+      Un projet ? Une question ? <br />
+      Contactez-nous !
+    </h2>
 
-    <p class="my-10">Nous vous répondons en un jour ouvré et faisons des devis gratuitement</p>
+    <p class="my-10">
+      <!-- Nous vous répondons en un jour ouvré. -->
+    </p>
 
     <form
+      id="my-form"
       action="https://formspree.io/f/xdknkqyz"
       method="POST"
-      class="flex flex-col max-w-sm bg-gray-600 rounded-lg p-8 text-gray-300 mt-10 mx-auto child:mb-4 child:rounded"
+      class="flex flex-col max-w-md p-8 mx-auto mt-10 text-white bg-black rounded-lg child:mb-4 child:rounded"
     >
       <label>Votre adresse email :</label>
-      <input type="email" name="email" />
+      <input type="email" name="email" class="text-black" />
       <label>Votre message :</label>
-      <textarea name="message" rows="7"></textarea>
-      <button type="submit">Envoyer</button>
+      <textarea name="message" rows="7" class="text-black"></textarea>
+      <button id="my-form-button" class="px-4 py-2 text-white bg-black rounded hover:bg-white hover:text-black">Envoyer</button>
+      <p id="my-form-status"></p>
     </form>
+
+    <script>
+      var form = document.getElementById("my-form") as HTMLFormElement;
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = "Votre message a bien été envoyé !";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, "errors")) {
+                  status.innerHTML = data["errors"]
+                    .map((error) => error["message"])
+                    .join(", ");
+                } else {
+                  status.innerHTML =
+                    "Hmm, il y a eu un problème. Veuillez réessayer.";
+                }
+              });
+            }
+          })
+          .catch((error) => {
+            status.innerHTML = "Hmm, il y a eu un problème. Vous pouvez nous contacter directement à l'adresse contact@negative-network.com";
+          });
+      }
+      form.addEventListener("submit", handleSubmit);
+    </script>
   </div>
 </section>

@@ -1,0 +1,44 @@
+---
+import MyImage from "../MyImage.astro";
+const { person } = Astro.props;
+---
+
+<div class="p-10">
+  <MyImage
+    imageSrc={person.image}
+    imageAlt={person.name}
+    imageClasses={"max-w-48  my-10 rounded-full"}
+  />
+
+  <p class="my-4 text-3xl font-bold font-display">{person.name}</p>
+
+  <ul class="flex flex-wrap my-4 -ml-2 text-sm">
+    {
+      person.links
+        ? person.links.map((link) => (
+            <li class="px-2 m-2 bg-gray-100 rounded">
+              <a href={link.url} class="text-blue-500 hover:underline">
+                {link.text}
+              </a>
+            </li>
+          ))
+        : null
+    }
+  </ul>
+
+  {
+    person.paragraphs
+      ? person.paragraphs.map((paragraph) => <p>{paragraph}</p>)
+      : null
+  }
+
+  <ul class="flex flex-wrap my-4 -ml-2 text-sm">
+    {
+      person.positions
+        ? person.positions.map((position) => (
+            <li class="px-2 py-1 m-2 bg-gray-200 rounded">{position}</li>
+          ))
+        : null
+    }
+  </ul>
+</div>

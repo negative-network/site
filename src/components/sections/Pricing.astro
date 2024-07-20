@@ -1,0 +1,101 @@
+---
+import PricingCard from "./PricingCard.astro";
+import PricingCardBlack from "./PricingCardBlack.astro";
+---
+
+<section aria-labelledby="pricing-section" id="pricing">
+  <div class="px-8 py-24 mx-auto lg:px-16 max-w-7xl md:px-12 scroll-mt-12">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2
+        class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+      >
+        Une tarification transparente.
+      </h2>
+    </div>
+  </div>
+  <div class="items-center px-8 pb-24 mx-auto lg:pt-12 max-w-7xl lg:px-16">
+    <div
+      class="grid max-w-2xl grid-cols-1 py-4 -mx-4 sm:grid-cols-2 gap-y-10 sm:mx-auto lg:max-w-none lg:grid-cols-4 xl:gap-x-4 lg:bg-gray-50 lg:border border-gray-500/10 lg:rounded-3xl"
+    >
+      <PricingCard
+        title="1ère réunion et Devis"
+        description="Une prise de contact pour comprendre vos besoins et vous proposer un devis."
+        price="Gratuit"
+        features={[
+          "Étude de votre demande",
+          "Ètude de faisabilité",
+          "Propositions techniques",
+          "Chiffrage & planning",
+        ]}
+      />
+
+      <PricingCard
+        title="Site vitrine"
+        description="Un site vitrine WordPress fonctionnel pour présenter votre activité."
+        from="à partir de"
+        price="1650€ HT"
+        features={[
+          "Solution clé en main",
+          "Utilisation d'un thème premium",
+          "Vous ajoutez votre contenu",
+          "Possibilités d'évolutions",
+          "Formation en option",
+          "Vous êtes propriétaire",
+          "Sauvegardes & mises à jour",
+        ]}
+      />
+
+      <PricingCardBlack
+        title="Tarif jour homme"
+        description="Pour des missions de conseil, de développement ou de maintenance. Tarifs dégressifs pour des achats de journées en volume."
+        price="550€ HT"
+        features={[
+          "Développement de fonctionnalités",
+          "Maintenance de site",
+          "Conseil & accompagnement",
+          "Optimisation de performance",
+          "Migrations",
+          "Installation de plugin",
+          "AMO",
+          "Formation",
+          "Reprise de projet",
+          "Administration système",
+        ]}
+      />
+
+      <PricingCard
+        title="Sites sur mesure, développement d'applications web et logiciels"
+        description="Une prestation personnalisée pour les projets les plus ambitieux."
+        from="à partir de"
+        price="5000€ HT"
+        features={[
+          "Recueil de l'expression des besoins",
+          "Rédaction des cahiers des charges",
+          "Design & ergonomie",
+          "Conception & développement",
+          "Tests & recette",
+          "Formation",
+          "Maintenance",
+          "Hébergement",
+        ]}
+      />
+    </div>
+    <!-- <div class="pt-12 mx-auto lg:py-16">
+      <div class="grid grid-cols-2 gap-0.5 lg:mt-8 md:grid-cols-6 mt-6">
+        <div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Figma.svg" />
+        </div><div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Canva.svg" />
+        </div><div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Stripe.svg" />
+        </div><div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Gitlab.svg" />
+        </div><div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Linear.svg" />
+        </div><div class="flex justify-center col-span-1 px-8">
+          <img alt="logo"  src="/Gumroad.svg" />
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>

@@ -7,27 +7,27 @@ const solutionsImages = import.meta.glob<{ default: ImageMetadata }>(
 );
 ---
 
-<section class="bg-gray-500 py-24">
-  <div class="max-w-4xl m-auto flex flex-wrap items-center justify-center">
+<section class="py-24 bg-black">
+  <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
     <h2
-      class="text-center text-4xl tracking-tight font-medium text-gray-400 md:text-5xl font-display mb-20"
+      class="mb-20 text-4xl font-medium tracking-tight text-center text-white md:text-5xl font-display"
     >
       Nos outils
     </h2>
-    <div class="max-w-4xl m-auto flex flex-wrap items-center justify-center">
+    <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
       {
         solutions.map((solution) => (
           <div class="p-4">
-            <a href={solution.url} class="flex-col items-center justify-center">
+            <a href={solution.url} class="flex-col items-center justify-center" target="_blank">
               <Image
                 src={"/src/assets/images/logos/" + solution.image}
                 width={100}
                 height={100}
                 densities={[1.5, 2]}
-                alt="A description of my image."
+                alt={solution.image}
                 class:list={"h-12 w-auto mx-10 my-4"}
               />
-              <p class="text-center text-gray-400">{solution.name}</p>
+              <p class="text-center text-gray-200">{solution.name}</p>
             </a>
           </div>
         ))

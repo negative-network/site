@@ -1,0 +1,76 @@
+---
+import { Image } from "astro:assets";
+import Person from "../sections/Person.astro";
+import PF from "/src/assets/images/equipe/Florian-et-Pierre-no-bg.png";
+import equipe from "../../content/equipe.json";
+---
+
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12"
+  >
+    <div>
+      <div class="relative mx-auto max-w-[40rem] pt-20 pb-24">
+        <h1
+          class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+        >
+          L'agence
+        </h1>
+      </div>
+    </div>
+    <div>
+      <div
+        class="mx-auto max-w-[40rem] prose-base prose text-gray-500 prose-h3:text-black prose-a:font-semibold prose-a:text-accent-300 hover:prose-a:text-black"
+      >
+        <p>
+          En 2011, Pierre Blarre et Florian Rodriguez, amis de longue date,
+          décident de créer l'agence web Negative Network.
+        </p>
+        <Image
+          src={PF}
+          alt="Pierre Blarre et Florian Rodriguez"
+          class:list={"h-auto m-auto my-10 rounded-lg"}
+        />
+        <p>
+          L'agence s'est spécialisée dans le développement d'applications web et
+          mobiles, la création de sites internet et l'accompagnement de ses
+          clients dans leur transformation digitale.
+        </p>
+        <p>
+          Nous travaillons pour de nombreux clients : ONG, entreprises,
+          startups, artistes, boutiques, ...
+        </p>
+        <p>
+          En parallèle, nous avons développé une expertise dans la formation.
+          Nous enseignons le développement à l'Université Grenoble Alpes (UGA),
+          pour Handigital Formation et à l'école d'ingénieurs CESI.
+        </p>
+
+        <h2 class="text-4xl">Qui sommes-nous ?</h2>
+      </div>
+
+      <div class="grid grid-cols-2 gap-10">
+        {equipe
+        .filter((person) => person.team == "nn")
+        .map((person) => <Person person={person} />)}
+      </div>
+
+      <div
+        class="mx-auto max-w-[40rem] prose-base prose text-gray-500 prose-h3:text-black prose-a:font-semibold prose-a:text-accent-300 hover:prose-a:text-black"
+      >
+        <h2 class="text-4xl">Nos partenaires</h2>
+        <p>
+          Nous collaborons avec des partenaires de confiance pour répondre à
+          tous les besoins de nos clients : graphistes, photographes,
+          rédacteurs, traducteurs, experts en référencement, ...
+        </p>
+      </div>
+
+      <div class="grid grid-cols-3 gap-10">
+        {equipe
+          .filter((person) => person.team == "external")
+          .map((person) => <Person person={person} />)}
+      </div>
+    </div>
+  </div>
+</section>
