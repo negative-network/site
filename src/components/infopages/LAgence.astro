@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import Person from "../sections/Person.astro";
 import PF from "/src/assets/images/equipe/Florian-et-Pierre-no-bg.png";
-import equipe from "../../content/equipe.json";
+import equipe from "../../content/collections/equipe.json";
 ---
 
 <section>
@@ -26,11 +26,11 @@ import equipe from "../../content/equipe.json";
           En 2011, Pierre Blarre et Florian Rodriguez, amis de longue date,
           décident de créer l'agence web Negative Network.
         </p>
-        <Image
+        <!-- <Image
           src={PF}
           alt="Pierre Blarre et Florian Rodriguez"
           class:list={"h-auto m-auto my-10 rounded-lg"}
-        />
+        /> -->
         <p>
           L'agence s'est spécialisée dans le développement d'applications web et
           mobiles, la création de sites internet et l'accompagnement de ses

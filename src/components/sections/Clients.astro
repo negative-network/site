@@ -1,6 +1,6 @@
 ---
 import MyImage from "../MyImage.astro";
-import clients from "../../content/clients.json";
+import clients from "../../content/collections/clients.json";
 
 const clientsImages = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/images/logos/*.{jpeg,jpg,png,gif,svg,webp}"

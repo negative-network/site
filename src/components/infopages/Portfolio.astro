@@ -1,10 +1,7 @@
 ---
 import MyImage from "../MyImage.astro";
-import tags from "../../content/tags.json";
-import clients from "../../content/clients.json";
-const clientsImages = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/images/logos/*.{jpeg,jpg,png,gif,svg,webp}"
-);
+import tags from "../../content/collections/tags.json";
+import clients from "../../content/collections/clients.json";
 ---
 
 <section class="py-24 bg-gray-200">
