@@ -4,7 +4,11 @@ const { person } = Astro.props;
 ---
 
 <div class="p-10">
-
+  <MyImage
+    imageSrc={person.image}
+    imageAlt={person.name}
+    imageClasses={"max-w-48  my-10 rounded-full"}
+  />
 
   <p class="my-4 text-3xl font-bold font-display">{person.name}</p>
 

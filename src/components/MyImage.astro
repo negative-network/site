@@ -7,4 +7,5 @@ const images = import.meta.glob("@assets/images/**/*");
 
 ---
 
-<Image src={images[imageSrc]()} alt={imageAlt} class:list={imageClasses}/>
+{images[imageSrc] instanceof Function ? <Image src={images[imageSrc]()} alt={imageAlt} class:list={imageClasses}/> : null}
+
