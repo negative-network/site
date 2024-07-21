@@ -17,7 +17,7 @@ import logo from "@assets/images/logo-NN.gif";
             alt="Logo Negative Network"
             class:list={"h-8 w-auto"}
           />
-          
+
           <span class="font-bold font-display">Negative Network</span>
         </a>
         <button
@@ -47,8 +47,12 @@ import logo from "@assets/images/logo-NN.gif";
           </svg>
         </button>
       </div>
-
-      <Menu />
+      <nav
+        :class="{'flex': open, 'hidden': !open}"
+        class="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row"
+      >
+        <Menu />
+      </nav>
     </div>
   </div>
 </section>
