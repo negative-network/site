@@ -1,0 +1,32 @@
+[
+  {
+      "name" : "Antoine Gurwitch",
+      "job" : "CEO d’Ad’s up consulting",
+      "text" : "Je profite de l’aboutissement de cette ultime refonte pour vous remercier et vous féliciter… Nous travaillons en toute confiance depuis plus de 10 ans et une fois de plus vous avez su répondre à toutes nos attentes avec fiabilité. Nous sommes ravis du résultat final."
+  },
+  {
+      "name" : "Alain Borri",
+      "job" : "Directeur associé BP2R",
+      "text" : "… Je profite de l’occasion pour vous remercier pour la qualité de votre travail et votre comportement. C’est un plaisir de travailler avec vous."
+  },
+  {
+      "name" : "Charles El Meliani",
+      "job" : "Responsable marketing Sightness",
+      "text" : "Salut à vous trois, je voulais vous remercier pour le travail accompli sur ce projet, mais aussi pour votre patience suite aux différents reports et votre efficacité dans ce sprint final. Le résultat est superbe et on a des premiers retours très positifs. On a hâte de « jouer » avec, le potentiel est immense."
+  },
+  {
+      "name" : "Charline Noblet",
+      "job" : "pour Alma da comporta",
+      "text" : "Le site alma-da-comporta est une véritable réussite ! Merci, le design est vraiment top et l’intégration très propre ! Nous avons que des retours positifs des visiteurs"
+  },
+  {
+      "name" : "Jean-Baptiste Paulhet",
+      "job" : "Responsable de la communication numérique FIDH",
+      "text" : "La FIDH a commencé sa relation avec l’agence Negative Network en 2014 à l’occasion de la refonte de son site internet fidh.org. Negative Network a su mener à bien ce projet avec beaucoup d’attention et d’abnégation tant en termes de design que de développement technique. Très satisfait de cette collaboration, Negative Network accompagne désormais la FIDH de manière régulière sur la maintenance du site FIDH.org et le développement de mini-sites web de campagne."
+  },
+  {
+      "name" : "Pierre Motin",
+      "job" : "responsable de la communication ACAT",
+      "text" : "Au nom de l’ACAT, je vous remercie chaleureusement pour le travail que vous avez effectué pour la refonte du site ACAT. Les premiers retours soulignent la grande qualité esthétique et tout ceci va contribuer plus que positivement à notre repositionnement d’image et surtout à booster toujours plus encore nos actions."
+  }
+]

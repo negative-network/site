@@ -1,0 +1,36 @@
+---
+import Testimonial from "./Testimonial.astro";
+import temoignages from "../../content/collections/temoignages.json";
+---
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12"
+  >
+    <div>
+      <p
+        class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+      >
+      Le feedback <span class="sm:block"
+          >de clients satisfaits</span
+        >
+      </p>
+    </div>
+    <ul
+      class="grid grid-cols-3 gap-4 mt-12 lg:mt-24 "
+    >
+    <!-- loop on temoignages -->
+    {
+      temoignages.map((temoignage) => (
+        <li class="p-4 rounded-lg bg-slate-50">
+          <Testimonial
+            name={temoignage.name}
+            job={temoignage.job}
+            text={temoignage.text}
+          />
+        </li>
+      ))
+    }
+
+    </ul>
+  </div>
+</section>
