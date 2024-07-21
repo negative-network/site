@@ -3,6 +3,8 @@ import { Image } from 'astro:assets';
 
 const { imageSrc, imageAlt, imageClasses } = Astro.props;
 
+const images = import.meta.glob("@assets/images/**/*");
+
 ---
 
-<Image src={import(imageSrc)} alt={imageAlt} class:list={imageClasses}/>
+<Image src={images[imageSrc]()} alt={imageAlt} class:list={imageClasses}/>

@@ -1,10 +1,7 @@
 ---
 import { Image } from "astro:assets";
+import MyImage from "@components/MyImage.astro";
 import solutions from "../../content/collections/solutions.json";
-
-const solutionsImages = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/assets/images/clients/*.{jpeg,jpg,png,gif,svg}"
-);
 ---
 
 <section class="py-24 bg-black">
@@ -18,15 +15,17 @@ const solutionsImages = import.meta.glob<{ default: ImageMetadata }>(
       {
         solutions.map((solution) => (
           <div class="p-4">
-            <a href={solution.url} class="flex-col items-center justify-center" target="_blank">
-              <Image
-                src={"/src/assets/images/logos/" + solution.image}
-                width={100}
-                height={100}
-                densities={[1.5, 2]}
-                alt={solution.image}
-                class:list={"h-12 w-auto mx-10 my-4"}
+            <a
+              href={solution.url}
+              class="flex-col items-center justify-center"
+              target="_blank"
+            >
+              <MyImage
+                imageSrc={solution.image}
+                imageAlt={solution.name}
+                imageClasses={"h-12 w-auto h-12 w-auto mx-10 my-4"}
               />
+
               <p class="text-center text-gray-200">{solution.name}</p>
             </a>
           </div>

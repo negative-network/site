@@ -1,46 +1,82 @@
 [
   {
     "name": "WordPress",
-    "image": "wordpress.svg",
+    "image": "/src/assets/images/logos/wordpress.svg",
     "url": "https://wordpress.org/"
   },
-  { "name": "Astro", "image": "astro.svg", "url": "https://astro.build/" },
-  { "name": "Angular", "image": "angular.svg", "url": "https://angular.io/" },
+  {
+    "name": "Astro",
+    "image": "/src/assets/images/logos/astro.svg",
+    "url": "https://astro.build/"
+  },
+  {
+    "name": "Angular",
+    "image": "/src/assets/images/logos/angular.svg",
+    "url": "https://angular.io/"
+  },
   {
     "name": "TailwindCSS",
-    "image": "tailwind.svg",
+    "image": "/src/assets/images/logos/tailwind.svg",
     "url": "https://tailwindcss.com/"
   },
   {
     "name": "Bedrock",
-    "image": "bedrock.svg",
+    "image": "/src/assets/images/logos/bedrock.svg",
     "url": "https://roots.io/bedrock/"
   },
-  { "name": "Sage", "image": "sage.svg", "url": "https://roots.io/sage/" },
-  { "name": "Laravel", "image": "laravel.svg", "url": "https://laravel.com/" },
-  { "name": "MySQL", "image": "mysql.svg", "url": "https://www.mysql.com/" },
+  {
+    "name": "Sage",
+    "image": "/src/assets/images/logos/sage.svg",
+    "url": "https://roots.io/sage/"
+  },
+  {
+    "name": "Laravel",
+    "image": "/src/assets/images/logos/laravel.svg",
+    "url": "https://laravel.com/"
+  },
+  {
+    "name": "MySQL",
+    "image": "/src/assets/images/logos/mysql.svg",
+    "url": "https://www.mysql.com/"
+  },
   {
     "name": "PostgreSQL",
-    "image": "postgresql.svg",
+    "image": "/src/assets/images/logos/postgresql.svg",
     "url": "https://www.postgresql.org/"
   },
-  { "name": "Git", "image": "git.svg", "url": "https://git-scm.com/" },
+  {
+    "name": "Git",
+    "image": "/src/assets/images/logos/git.svg",
+    "url": "https://git-scm.com/"
+  },
   {
     "name": "CSS",
-    "image": "css3.svg",
+    "image": "/src/assets/images/logos/css3.svg",
     "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
   },
-  { "name": "Trello", "image": "trello.svg", "url": "https://trello.com" },
-  { "name": "Taiga", "image": "taiga.svg", "url": "https://taiga.io/" },
+  {
+    "name": "Trello",
+    "image": "/src/assets/images/logos/trello.svg",
+    "url": "https://trello.com"
+  },
+  {
+    "name": "Taiga",
+    "image": "/src/assets/images/logos/taiga.svg",
+    "url": "https://taiga.io/"
+  },
   {
     "name": "HTML",
-    "image": "html.svg",
+    "image": "/src/assets/images/logos/html.svg",
     "url": "https://developer.mozilla.org/fr/docs/Web/HTML"
   },
   {
     "name": "javascript",
-    "image": "javascript.svg",
+    "image": "/src/assets/images/logos/javascript.svg",
     "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
   },
-  { "name": "php", "image": "php.svg", "url": "https://www.php.net/" }
+  {
+    "name": "php",
+    "image": "/src/assets/images/logos/php.svg",
+    "url": "https://www.php.net/"
+  }
 ]

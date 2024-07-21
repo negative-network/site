@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import MyImage from "../MyImage.astro";
+import gestionImage from "@assets/images/gestion-de-projet.svg";
 ---
 
 <section>
@@ -34,13 +34,12 @@ import MyImage from "../MyImage.astro";
         class="hidden mt-12 border lg:mt-0 lg:block rounded-3xl"
       >
         <div class="p-8 bg-gray-100 rounded-2xl">
-          <MyImage
-            imageSrc={"/src/assets/images/gestion-de-projet.svg"}
-            imageAlt="Gestion de projet"
-            imageClasses={"w-full h-auto"}
-            imageCaption={"Inforgraphie créée par Katemangostar"}
-            imageAuthorLink={"https://www.freepik.com/author/katemangostar"}
+          <Image
+            src={gestionImage}
+            alt="Gestion de projet"
+            class:list={"w-full h-auto"}
           />
+          <!-- <caption>Inforgraphie créée par <a href="https://www.freepik.com/author/katemangostar" target="_blank">Katemangostar</a></caption> -->
         </div>
       </div>
     </div>
