@@ -1,8 +1,9 @@
 import type { APIRoute } from 'astro'
 import { getImage } from 'astro:assets'
-import favicon from '../assets/images/favicon.ico'
+// import favicon from '../assets/images/favicon.ico'
+import favicon from '../assets/images/logo-NN-black.png';
 
-const faviconPngSizes = [192, 512]
+const faviconPngSizes = [96, 96]
 
 export const GET: APIRoute = async () => {
   const icons = await Promise.all(
