@@ -155,6 +155,11 @@ declare module 'astro:content' {
   collection: "collections";
   data: any
 };
+"temoignages": {
+	id: "temoignages";
+  collection: "collections";
+  data: any
+};
 };
 
 	};

@@ -1,7 +1,9 @@
 ---
+import CookieComponent from "./Cookies.astro";
 import "../styles/global.css";
 import { getImage } from "astro:assets";
 import faviconSrc from "../assets/images/logo-NN-black.png";
+import Cookies from "./Cookies.astro";
 const { title, description } = Astro.props;
 const appleTouchIcon = await getImage({
   src: faviconSrc,
@@ -10,6 +12,7 @@ const appleTouchIcon = await getImage({
   format: "png",
 });
 ---
+
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
@@ -46,8 +49,11 @@ https://rsms.me/inter/
 <link
   href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
   rel="stylesheet"
-  media="print" onload="this.onload=null;this.removeAttribute('media');"
+  media="print"
+  onload="this.onload=null;this.removeAttribute('media');"
 />
 
 <!---- Alpine  -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+
+<CookieComponent/>
