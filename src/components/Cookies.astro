@@ -48,7 +48,6 @@
 
         "callbacks": {
           "scripts_specific_loaded": (level) => {
-            console.log('scripts_specific_loaded', level);
             switch (level) {
               case 'functionality':
                 break;
@@ -58,7 +57,6 @@
                 });
                 break;
               case 'targeting':
-                console.log(level);
                 gtag('consent', 'update', {
                   'ad_storage': 'granted',
                   'ad_user_data': 'granted',
