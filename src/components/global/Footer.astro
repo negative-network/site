@@ -7,7 +7,7 @@ import logo from "@assets/images/logo-NN.gif";
 
 <Cta />
 
-<footer>
+<footer class="flex flex-col">
   <div
     class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12"
   >
@@ -25,12 +25,22 @@ import logo from "@assets/images/logo-NN.gif";
       </a>
 
       <nav
-        class="footer flex flex-col items-center justify-center mt-10 md:flex-row child:mb-2"
+        class="footer flex flex-col items-center justify-center my-10 md:flex-row child:mb-2"
       >
         <Menu />
       </nav>
     </div>
   </div>
+
+  <div
+    class="flex flex-col justify-center items-center w-full px-8 py-6 mx-auto lg:px-24 max-w-7xl md:px-12"
+  >
+    <p class="text-xs mb-4">Ce site possède un faible impact environnemental !</p>
+    <div id="wcb" class="carbonbadge"></div>
+    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
+    ></script>
+  </div>
+
 </footer>
 <footer class="bg-white">
   <div
@@ -41,8 +51,11 @@ import logo from "@assets/images/logo-NN.gif";
         © {new Date().getFullYear()} Negative Network
       </p>
       <p class="ml-auto">
-        <a href="#" id="open_preferences_center"
-          class="text-sm text-neutral-600 hover:text-accent-400 mr-4">Cookies</a>
+        <a
+          href="#"
+          id="open_preferences_center"
+          class="text-sm text-neutral-600 hover:text-accent-400 mr-4">Cookies</a
+        >
         <a
           href="/mentions-legales"
           class="text-sm text-neutral-600 hover:text-accent-400"
