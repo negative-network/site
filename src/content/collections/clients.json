@@ -404,6 +404,16 @@
             "highlight" : true
         },
         {
+            "tags" : "wp ooii highlight",
+            "name" : "Ō Bistro",
+            "location" : "Lisbon, Portugal",
+            "description" : "Ō Bistro est une tasca de Lisbonne \"à la parisienne\"",
+            "url" : "https://obistro.pt/",
+            "image" : "/src/assets/images/clients/portfolio/obistro.png",
+            "logo" : "/src/assets/images/clients/logos/obistro.svg",
+            "highlight" : true
+        },
+        {
             "tags" : "wp ong institutionnel become-creative shop highlight",
             "name" : "Primo Levi (Site)",
             "location" : "Paris, France",
