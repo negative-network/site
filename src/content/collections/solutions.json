@@ -35,6 +35,11 @@
     "url": "https://laravel.com/"
   },
   {
+    "name": "php",
+    "image": "/src/assets/images/logos/php.svg",
+    "url": "https://www.php.net/"
+  },
+  {
     "name": "MySQL",
     "image": "/src/assets/images/logos/mysql.svg",
     "url": "https://www.mysql.com/"
@@ -55,11 +60,6 @@
     "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
   },
   {
-    "name": "Trello",
-    "image": "/src/assets/images/logos/trello.svg",
-    "url": "https://trello.com"
-  },
-  {
     "name": "Taiga",
     "image": "/src/assets/images/logos/taiga.svg",
     "url": "https://taiga.io/"
@@ -73,10 +73,5 @@
     "name": "javascript",
     "image": "/src/assets/images/logos/javascript.svg",
     "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
-  },
-  {
-    "name": "php",
-    "image": "/src/assets/images/logos/php.svg",
-    "url": "https://www.php.net/"
   }
 ]
