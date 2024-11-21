@@ -20,6 +20,9 @@
       "@components/*": [
         "src/components/*"
       ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
       "@content/*": [
         "src/content/*"
       ]
