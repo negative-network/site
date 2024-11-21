@@ -1,0 +1,67 @@
+---
+import FaqQA from "@components/sections/FaqQA.astro";
+import { Image } from "astro:assets";
+import expertiseImage from "@assets/images/logos/nodejs.svg";
+---
+
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12 scroll-mt-12"
+  >
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12">
+      <div class="text-center lg:text-left">
+        <div>
+          <p
+            class="text-3xl font-normal tracking-tight text-black font-display"
+          >
+            Expertise Node.js
+          </p>
+          <p class="mt-4 text-base text-zinc-500">
+            Nous sommes des experts en JavaScript et Node.js, le runtime JavaScript côté serveur le plus populaire, pour concevoir des sites web et applications performants, sécurisés et évolutifs.
+          </p>
+          <Image
+            src={expertiseImage}
+            alt="Logo Node.js"
+            class:list={"w-full h-auto my-10 rounded-2xl "}
+          />
+        </div>
+      </div>
+      <div
+        x-data="{
+  activeAccordion: '',
+  setActiveAccordion(id) {
+  this.activeAccordion = (this.activeAccordion == id) ? '' : id
+  }
+  }"
+        class="relative w-full mx-auto font-normal lg:col-span-2"
+      >
+
+        <FaqQA
+          question="Développement sur-mesure"
+          answer="Vous souhaitez développer des sites web et applications sur-mesure ? Nous utilisons Node.js, le runtime JavaScript côté serveur le plus populaire, pour concevoir des sites web et applications performants, sécurisés et évolutifs. Node.js est un runtime JavaScript, qui permet de créer des serveurs, des API, des microservices et des applications, en utilisant les dernières technologies et les meilleures pratiques de développement, pour garantir une expérience utilisateur optimale. Nous intégrons Node.js à Express.js pour créer des applications web et applications sur-mesure, sécurisées et performantes."
+        />
+
+        <FaqQA
+          question="API"
+          answer="Vous souhaitez créer des API RESTful ? Nous utilisons Node.js, le runtime JavaScript côté serveur le plus populaire, pour concevoir des API RESTful performantes, sécurisées et évolutives. Node.js est un runtime JavaScript, qui permet de créer des serveurs, des API, des microservices et des applications, en utilisant les dernières technologies et les meilleures pratiques de développement, pour garantir une expérience utilisateur optimale. Nous utilisons Express.js pour créer des API RESTful, sécurisées et performantes, qui répondent à vos besoins et à ceux de vos utilisateurs."
+        />
+
+        <FaqQA
+          question="Consulting"
+          answer="Vous souhaitez bénéficier de notre expertise en Node.js ? Nous proposons des prestations de consulting pour vous aider à concevoir des sites web et applications performants, sécurisés et évolutifs. Nous vous aidons à analyser vos besoins, à planifier vos ressources et à valider vos résultats, pour garantir le succès de vos projets. Nous vous proposons des solutions de consulting adaptées à vos besoins, pour garantir la satisfaction de vos utilisateurs et la pérennité de votre activité."
+        />
+
+        <FaqQA
+          question="Maintenance"
+          answer="Vous souhaitez assurer la pérennité de votre site ? Nous proposons des prestations de maintenance pour garantir la disponibilité, la sécurité et la performance de vos sites web et applications. Nous vous aidons à surveiller vos sites, à corriger vos bugs et à optimiser vos performances, pour garantir la satisfaction de vos utilisateurs. Nous vous proposons des contrats de maintenance adaptés à vos besoins, pour garantir la continuité de votre activité."
+        />
+
+        <FaqQA
+          question="Migration"
+          answer="Vous souhaitez migrer votre site ou application vers Node.js ? Nous proposons des prestations de migration pour vous aider à migrer vos sites web et applications vers Node.js, le runtime JavaScript côté serveur le plus populaire. Nous vous aidons à analyser vos besoins, à planifier vos ressources et à valider vos résultats, pour garantir le succès de votre migration. Nous vous proposons des solutions de migration adaptées à vos besoins, pour garantir la satisfaction de vos utilisateurs et la pérennité de votre activité."
+        />
+        
+      </div>
+    </div>
+  </div>
+</section>

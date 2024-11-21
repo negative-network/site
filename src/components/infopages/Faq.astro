@@ -1,5 +1,7 @@
 ---
 import FaqQA from "../sections/FaqQA.astro";
+import { Image } from "astro:assets";
+import faqImage from "@assets/images/faq.jpg";
 ---
 
 <section>
@@ -14,9 +16,14 @@ import FaqQA from "../sections/FaqQA.astro";
           >
             Questions fréquemment posées
           </p>
-          <p class="mt-4 text-base text-zinc-500">
-            <!-- Réponses aux questions fréquemment posées sur notre plateforme -->
-          </p>
+          <Image
+            src={faqImage}
+            alt="Gestion de projet"
+            class:list={"w-full h-auto my-10 rounded-2xl "}
+          />
+          <!-- <p class="mt-4 text-base text-zinc-500">
+            Réponses aux questions fréquemment posées sur notre plateforme
+          </p> -->
         </div>
       </div>
       <div

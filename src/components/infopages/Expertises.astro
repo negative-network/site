@@ -1,5 +1,7 @@
 ---
 import FaqQA from "../sections/FaqQA.astro";
+import { Image } from 'astro:assets';
+import expertisesImage from "@assets/images/expertises.jpg";
 ---
 
 <section>
@@ -14,6 +16,11 @@ import FaqQA from "../sections/FaqQA.astro";
           >
             Expertises
           </p>
+          <Image
+            src={expertisesImage}
+            alt="Image expertises"
+            class:list={"w-full h-auto my-10 rounded-2xl "}
+          />
           <p class="mt-4 text-base text-zinc-500">
             15 ans d'experience dans le développement web et mobile nous ont
             permis de maitriser les technologies les plus récentes et de
@@ -31,27 +38,23 @@ import FaqQA from "../sections/FaqQA.astro";
         class="relative w-full mx-auto font-normal lg:col-span-2"
       >
       <FaqQA
-        question="Intégration responsive"
-        answer="Notre expertise en intégration responsive nous permet de créer des sites et applications qui s’ajustent automatiquement à la taille de l’écran, offrant une navigation fluide et intuitive sur mobile, tablette et ordinateur."
-      />
-      <FaqQA
         question="WordPress"
         answer="Nous sommes spécialisés dans le développement de sites web et applications sur WordPress, le CMS le plus utilisé au monde. Nous concevons des sites sur-mesure, optimisés pour le référencement naturel et la performance, et nous vous accompagnons dans la création de votre site vitrine, blog, e-commerce ou application web."
       />
 
       <FaqQA
-        question="Laravel"
+        question="Intégrations responsive"
+        answer="Notre expertise en intégration responsive nous permet de créer des sites et applications qui s’ajustent automatiquement à la taille de l’écran, offrant une navigation fluide et intuitive sur mobile, tablette et ordinateur."
+      />
+
+      <FaqQA
+        question="PHP et Laravel"
         answer="Nous développons des applications web et mobiles sur Laravel, le framework PHP le plus populaire. Nous concevons des solutions sur-mesure, sécurisées et performantes, en utilisant les dernières technologies et les meilleures pratiques de développement. Nous vous accompagnons dans la création de votre application web, e-commerce, CRM ou API."
       />
 
       <FaqQA
-        question="Astro Js"
-        answer="Nous utilisons Astro JS pour créer des sites web rapides, performants et sécurisés. Astro JS est un framework de développement web moderne, qui permet de générer des sites statiques et dynamiques, en utilisant les technologies les plus récentes et les meilleures pratiques de développement."
-      />
-
-      <FaqQA
-        question="Angular"
-        answer="Nous développons des applications web et mobiles sur Angular, le puissant framework JavaScript de Google. Nous concevons des solutions sur-mesure, évolutives et performantes, en utilisant les dernières technologies et les meilleures pratiques de développement."
+        question="Javacript, NodeJs, Angular et Astro Js"
+        answer="Nous sommes des experts en JavaScript, Node.js, Angular et Astro Js, pour concevoir des sites web et applications performants, sécurisés et évolutifs. Nous utilisons les dernières technologies et les meilleures pratiques de développement pour garantir une expérience utilisateur optimale."
       />
 
       <FaqQA

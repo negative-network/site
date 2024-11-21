@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS */
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1,
+    /* Contextual Alternates */ "dlig" 1, /* Discretionary Ligatures */ "ss07" 1,
+    /* fSquare punctuation */ "ss08" 1, /* Square quotes */ "zero" 1,
+    /* Slashed zero */ "tnum" 1, /* Tabular numbers */ "cv03",
+    /* Open six */ "cv04" 1, /* Open nine */ "cv01" 1,
+    /* Alternate one */ "cv09", /* Flat-top three */ "cv02" 1;
+  /* Open 4 */
+}
+
+@supports (font-variation-settings: normal) {
+  /* Use variable font if supported */
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+.bg-gradient-animation {
+  background: linear-gradient(45deg, #E8E1D5, #DDD5D5, #EDEDED, #D3DCE8);
+	background-size: 1000% 1000%;
+	animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.scrolled-to {
+  @apply flex flex-col items-center justify-center min-h-[100vh];
+}
+
+.cc-nb-main-container {
+  padding: 20px !important;
+}
+
+.cc-nb-title {
+  font-size: small !important;
+}
+
+.cc-nb-text,
+.cc-nb-changep {
+  display: none !important;
+}
+
+.cc-nb-reject,
+.cc-nb-okagree,
+.cc-cp-foot-save {
+  background-color: gray !important;
+  padding: 5px !important;
+}
+
+.cc-nb-reject {
+  background-color: lightgray !important;
+}
+
+.cc-nb-okagree:hover,
+.cc-nb-reject:hover {
+  opacity: 0.5 !important;
+}
+
+nav {
+  a {
+    @apply px-2 py-2 text-sm font-medium text-black lg:px-6 md:px-3 hover:text-accent-400;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.submenu {
+  @apply inline-flex lg:ml-auto relative bg-white;
+
+  & > ul {
+    /* display: none; */
+
+    /* animation: 1s fadeIn; */
+    visibility: hidden;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 2.5rem;
+    background-color: white;
+    z-index: 10;
+    padding: 5px;
+    border-left: 1px solid #e5e5e5;
+    /* border-right: 1px solid #e5e5e5; */
+    border-bottom: 1px solid #e5e5e5;
+
+    li {
+      margin-bottom: 5px;
+
+      a {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &:hover {
+    & > ul {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+/* form input placeholder */
+input::placeholder,
+textarea::placeholder {
+  @apply text-gray-400 italic font-thin;
+}

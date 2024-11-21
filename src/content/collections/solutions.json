@@ -5,6 +5,21 @@
     "url": "https://wordpress.org/"
   },
   {
+    "name": "javascript",
+    "image": "/src/assets/images/logos/javascript.svg",
+    "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+  },
+  {
+    "name": "NodeJS",
+    "image": "/src/assets/images/logos/nodejs.svg",
+    "url": "https://nodejs.org/"
+  },
+  {
+    "name": "php",
+    "image": "/src/assets/images/logos/php.svg",
+    "url": "https://www.php.net/"
+  },
+  {
     "name": "Astro",
     "image": "/src/assets/images/logos/astro.svg",
     "url": "https://astro.build/"
@@ -33,11 +48,6 @@
     "name": "Laravel",
     "image": "/src/assets/images/logos/laravel.svg",
     "url": "https://laravel.com/"
-  },
-  {
-    "name": "php",
-    "image": "/src/assets/images/logos/php.svg",
-    "url": "https://www.php.net/"
   },
   {
     "name": "MySQL",
@@ -70,8 +80,43 @@
     "url": "https://developer.mozilla.org/fr/docs/Web/HTML"
   },
   {
-    "name": "javascript",
-    "image": "/src/assets/images/logos/javascript.svg",
-    "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+    "name": "VueJS",
+    "image": "/src/assets/images/logos/vuejs.svg",
+    "url": "https://vuejs.org/"
+  },
+  {
+    "name": "Sass",
+    "image": "/src/assets/images/logos/sass.svg",
+    "url": "https://sass-lang.com/"
+  },
+  {
+    "name": "Webpack",
+    "image": "/src/assets/images/logos/webpack.svg",
+    "url": "https://webpack.js.org/"
+  },
+  {
+    "name": "VSCode",
+    "image": "/src/assets/images/logos/vscode.svg",
+    "url": "https://code.visualstudio.com/"
+  },
+  {
+    "name": "emacs",
+    "image": "/src/assets/images/logos/emacs.svg",
+    "url": "https://www.gnu.org/software/emacs/"
+  },
+  {
+    "name": "Windows",
+    "image": "/src/assets/images/logos/windows.svg",
+    "url": "https://www.microsoft.com/fr-fr/windows"
+  },
+  {
+    "name": "MacOS",
+    "image": "/src/assets/images/logos/apple.svg",
+    "url": "https://www.apple.com/fr/macos/"
+  },
+  {
+    "name": "Linux",
+    "image": "/src/assets/images/logos/linux.svg",
+    "url": "https://www.linux.org/"
   }
 ]

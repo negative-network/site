@@ -1,0 +1,126 @@
+---
+import FaqQA from "@components/sections/FaqQA.astro";
+import { Image } from "astro:assets";
+import wordpressImage from "@assets/images/logos/wordpress.svg";
+---
+
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12 scroll-mt-12"
+  >
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12">
+      <div class="text-center lg:text-left">
+        <div>
+          <p
+            class="text-3xl font-normal tracking-tight text-black font-display"
+          >
+            Expertise WordPress
+          </p>
+          <p class="mt-4 text-base text-zinc-500">
+            Nous travaillons avec WordPress depuis plus de 10 ans et nous avons
+            développé des dizaines de sites web et applications sur cette
+            plateforme. Nous sommes spécialisés dans le développement de sites
+            web et applications sur WordPress, le CMS le plus utilisé au monde.
+            Nous concevons des sites sur-mesure, optimisés pour le référencement
+            naturel et la performance, et nous vous accompagnons dans la
+            création de votre site vitrine, blog, e-commerce, application web ou extension WordPress.
+          </p>
+          <Image
+            src={wordpressImage}
+            alt="Logo WordPress"
+            class:list={"w-full h-auto my-10 rounded-2xl "}
+          />
+        </div>
+      </div>
+      <div
+        x-data="{
+  activeAccordion: '',
+  setActiveAccordion(id) {
+  this.activeAccordion = (this.activeAccordion == id) ? '' : id
+  }
+  }"
+        class="relative w-full mx-auto font-normal lg:col-span-2"
+      >
+        <FaqQA
+          question="Installation et configuration"
+          answer="Nous installons et configurons votre site WordPress, en fonction de vos besoins et de vos contraintes, pour garantir la performance, la sécurité et la fiabilité de votre site. Nous vous accompagnons dans le choix de votre hébergeur, la configuration de votre serveur, la sécurisation de vos données et la gestion de vos sauvegardes, pour garantir la disponibilité et la performance de votre site."
+        />
+
+        <FaqQA
+          question="Roots.io"
+          answer="Grâce à Roots.io, nous développons des sites web et applications WordPress modernes, performants et sécurisés. Roots.io est un ensemble d’outils et de bonnes pratiques de développement, qui permet de générer des sites statiques et dynamiques, en utilisant les technologies les plus récentes et les meilleures pratiques de développement."
+        />
+
+        <FaqQA
+          question="Gutenberg"
+          answer="Nous développons des thèmes fonctionnant avec Gutenberg, l’éditeur de contenu de WordPress, pour concevoir des sites web et applications modernes, ergonomiques et performants. Gutenberg est un éditeur de contenu visuel, qui permet de créer des pages et des articles, en utilisant des blocs de contenu, des styles prédéfinis et des mises en page personnalisées, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="ACF - Advenced Custom Fields"
+          answer="Nous utilisons Advanced Custom Fields, le plugin de personnalisation de contenu de WordPress, pour concevoir des sites web et applications sur-mesure, ergonomiques et performants. Advanced Custom Fields est un plugin de personnalisation de contenu, qui permet de créer des champs personnalisés, des types de contenu personnalisés et des relations entre les contenus, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Tutor LMS"
+          answer="Vous souhaitez créer un site de formation en ligne ? Nous utilisons Tutor LMS, le plugin de gestion de formation de WordPress, pour concevoir des sites web et applications de formation en ligne, ergonomiques et performants. Tutor LMS est un plugin de gestion de formation, qui permet de créer des cours, des quiz, des certificats et des paiements en ligne, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="WPML"
+          answer="Vous souhaitez créer un site multilingue ? Nous utilisons WPML, le plugin de traduction de WordPress, pour concevoir des sites web et applications multilingues, ergonomiques et performants. WPML est un plugin de traduction, qui permet de traduire vos contenus, vos menus, vos widgets et vos thèmes, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Yoast SEO"
+          answer="Vous souhaitez optimiser le référencement de votre site ? Nous utilisons Yoast SEO, le plugin de référencement de WordPress, pour concevoir des sites web et applications optimisés pour les moteurs de recherche. Yoast SEO est un plugin de référencement, qui permet d’optimiser vos contenus, vos balises, vos images et vos liens, pour garantir une visibilité optimale sur les moteurs de recherche."
+        />
+
+        <FaqQA
+          question="CF7 - Contact Form 7"
+          answer="Spécialistes CF7, nous pouvons vous accompagner dans la création de formulaires évolués, protégés contre le spam, et intégrés à votre site WordPress. Les données soumises par vos visiteurs peuvent être stockées dans votre base de données et vous pouvez les exporter à tout moment, et nous pouvons aussi vous aider à les intégrer à votre CRM."
+        />
+
+        <FaqQA
+          question="WooCommerce"
+          answer="Vous souhaitez créer un site e-commerce ? Nous utilisons WooCommerce, le plugin de commerce électronique de WordPress, pour concevoir des sites web et applications de vente en ligne, ergonomiques et performants. WooCommerce est un plugin de commerce électronique, qui permet de créer des produits, des catégories, des commandes et des paiements en ligne, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Elementor"
+          answer="Vous souhaitez créer des pages web sans coder ? Nous utilisons Elementor, le constructeur de pages de WordPress, pour concevoir des sites web et applications sans coder. Elementor est un constructeur de pages visuel, qui permet de créer des pages et des articles, en utilisant des blocs de contenu, des styles prédéfinis et des mises en page personnalisées, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Sécurité"
+          answer="Nous utilise l'extension All In One WordPress Security (AIOWPS) pour sécuriser votre site WordPress. Nous mettons en place des mesures de sécurité pour protéger votre site contre les attaques, les intrusions et les malwares, en sécurisant vos fichiers, vos données et vos connexions, pour garantir la fiabilité et la confidentialité de votre site."
+        />
+
+        <FaqQA
+          question="RGPD"
+          answer="Nous vous accompagnons dans la mise en conformité de vos sites web et applications avec le RGPD, le règlement européen sur la protection des données. Nous vous aidons à identifier les données personnelles que vous traitez, à évaluer les risques que vous encourez, à mettre en place les mesures de sécurité nécessaires et à documenter vos traitements, pour garantir le respect de la vie privée de vos utilisateurs."
+        />
+
+        <FaqQA
+          question="Formations"
+          answer="Nous proposons des formations pour vous accompagner dans la prise en main de votre site WordPress. Nous vous formons à l’utilisation de votre site, à la gestion de vos contenus, à l’optimisation de votre référencement et à la sécurisation de vos données, pour vous permettre d’être autonome dans la gestion et l’évolution de votre site."
+        />
+
+        <FaqQA
+          question="Consulting"
+          answer="Nous proposons des prestations de consulting pour vous accompagner dans la conception et la réalisation de vos sites web et applications. Nous vous apportons notre expertise et notre expérience pour vous conseiller dans le choix de vos technologies, de vos outils et de vos méthodes, en garantissant la qualité, la performance et la sécurité de vos services."
+        />
+
+        <FaqQA
+          question="Maintenance"
+          answer="Nous proposons des contrats de maintenance pour vous accompagner dans la gestion et l’évolution de vos sites web et applications. Nous vous apportons notre expertise et notre expérience pour assurer la disponibilité, la performance et la sécurité de vos services, en garantissant la continuité de votre activité et la satisfaction de vos utilisateurs."
+        />
+
+        <FaqQA
+          question="Migration"
+          answer="Vous souhaitez migrer votre site vers WordPress ? Nous vous accompagnons dans la migration de vos contenus, de vos données et de vos fonctionnalités, pour garantir la continuité de votre activité et la satisfaction de vos utilisateurs. Nous vous aidons à choisir la meilleure solution de migration, à planifier les étapes de migration et à valider les résultats de migration, pour garantir le succès de votre projet."
+        />
+      </div>
+    </div>
+  </div>
+</section>

@@ -3,33 +3,36 @@ import MyImage from "../MyImage.astro";
 import clients from "@content/collections/clients.json";
 ---
 
-<section class="py-24 bg-gray-400 ">
-    <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
-      <h2
-        class="mb-20 text-4xl font-medium tracking-tight text-center text-white md:text-5xl font-display"
-      >
-        Parmi nos clients
-      </h2>
-      <div class="flex flex-wrap items-center justify-center m-auto max-w-7xl">
-        {
-          clients
-            .filter((client) => client.highlight)
-            .map((client) => (
-              <div class="flex-col items-center justify-center p-4 m-4">
-                <a href={client.url} target="_blank" title={client.name}>
-                  {client.logo ? (
-                    <MyImage
-                      imageSrc={client.logo}
-                      imageAlt={client.name}
-                      imageClasses={"h-12 w-auto "}
-                    />
-                  ) : (
-                    <p class="text-center text-gray-400">{client.name}</p>
-                  )}
-                </a>
-              </div>
-            ))
-        }
-      </div>
+<section id="clients"
+  class="scrolled-to py-24 bg-gradient-animation"
+>
+  <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
+    <h2
+      class="mb-20 text-4xl font-medium tracking-tight text-center text-white md:text-5xl font-display"
+    >
+      Parmi nos clients
+    </h2>
+    <div class="flex flex-wrap items-center justify-center m-auto max-w-7xl">
+      {
+        clients
+          .filter((client) => client.highlight)
+          .map((client) => (
+            <div class="flex-col items-center justify-center p-4 m-4">
+              <a href={client.url} target="_blank" title={client.name}>
+                {client.logo ? (
+                  <MyImage
+                    imageSrc={client.logo}
+                    imageAlt={client.name}
+                    imageClasses={"h-12 w-auto "}
+                  />
+                ) : (
+                  <p class="text-center text-gray-400">{client.name}</p>
+                )}
+              </a>
+            </div>
+          ))
+      }
     </div>
-  </section>
+  </div>
+
+</section>

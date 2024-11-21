@@ -1,0 +1,77 @@
+---
+import FaqQA from "@components/sections/FaqQA.astro";
+import { Image } from "astro:assets";
+import laravelImage from "@assets/images/logos/laravel.svg";
+---
+
+<section>
+  <div
+    class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12 scroll-mt-12"
+  >
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-12">
+      <div class="text-center lg:text-left">
+        <div>
+          <p
+            class="text-3xl font-normal tracking-tight text-black font-display"
+          >
+            Expertise Laravel
+          </p>
+          <p class="mt-4 text-base text-zinc-500">
+            Nous travaillons avec Laravel depuis plus de 10 ans. Nous sommes spécialisés dans le développement de sites
+            web et applications sur Laravel, le framework PHP le plus populaire.
+            Nous concevons des sites sur-mesure, sécurisés et performants, en
+            utilisant les dernières technologies et les meilleures pratiques de
+            développement. Nous vous accompagnons dans la création de votre
+            application web, e-commerce, CRM ou API.
+          </p>
+          <Image
+            src={laravelImage}
+            alt="Logo Laravel"
+            class:list={"w-full h-auto my-10 rounded-2xl "}
+          />
+        </div>
+      </div>
+      <div
+        x-data="{
+  activeAccordion: '',
+  setActiveAccordion(id) {
+  this.activeAccordion = (this.activeAccordion == id) ? '' : id
+  }
+  }"
+        class="relative w-full mx-auto font-normal lg:col-span-2"
+      >
+
+        <FaqQA
+          question="Développement sur-mesure"
+          answer="Nous développons des sites web et applications sur-mesure, sécurisés et performants, en utilisant Laravel, le framework PHP le plus populaire. Laravel est un framework PHP, qui permet de créer des applications web, des API, des CRM et des CMS, en utilisant les dernières technologies et les meilleures pratiques de développement, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Vue.js"
+          answer="Vous souhaitez créer des interfaces utilisateur interactives ? Nous utilisons Vue.js, le framework JavaScript le plus populaire, pour concevoir des sites web et applications dynamiques, ergonomiques et performants. Vue.js est un framework JavaScript, qui permet de créer des composants, des routes, des états et des événements, pour garantir une expérience utilisateur optimale. Nous intégrons Vue.js à Laravel pour créer des applications web et applications sur-mesure, sécurisées et performantes."
+        />
+
+        <FaqQA
+          question="API"
+          answer="Vous souhaitez créer des interfaces de programmation ? Nous utilisons Laravel, le framework PHP le plus populaire, pour concevoir des API RESTful, GraphQL et SOAP, en utilisant les dernières technologies et les meilleures pratiques de développement, pour garantir une expérience développeur optimale. Nous développons des API sur-mesure, sécurisées et performantes, en utilisant Laravel, pour garantir une expérience utilisateur optimale."
+        />
+
+        <FaqQA
+          question="Consulting"
+          answer="Nous proposons des prestations de consulting pour vous accompagner dans la conception, le développement et la maintenance de vos sites web et applications. Nous vous apportons notre expertise et notre expérience pour vous aider à choisir les meilleures technologies, les meilleures pratiques et les meilleures solutions, pour garantir le succès de votre projet. Nous vous aidons à définir vos besoins, à planifier vos ressources et à valider vos résultats, pour garantir la satisfaction de vos utilisateurs."
+        />
+
+        <FaqQA
+          question="Maintenance"
+          answer="Vous souhaitez assurer la pérennité de votre site ? Nous proposons des prestations de maintenance pour garantir la disponibilité, la sécurité et la performance de vos sites web et applications. Nous vous aidons à surveiller vos sites, à corriger vos bugs et à optimiser vos performances, pour garantir la satisfaction de vos utilisateurs. Nous vous proposons des contrats de maintenance adaptés à vos besoins, pour garantir la continuité de votre activité."
+        />
+
+        <FaqQA
+          question="Migration"
+          answer="Vous souhaitez migrer votre site vers Laravel ? Nous proposons des prestations de migration pour vous aider à migrer vos sites web et applications vers Laravel, le framework PHP le plus populaire. Nous vous aidons à analyser vos besoins, à planifier vos ressources et à valider vos résultats, pour garantir le succès de votre migration. Nous vous proposons des solutions de migration adaptées à vos besoins, pour garantir la continuité de votre activité."
+        />
+        
+      </div>
+    </div>
+  </div>
+</section>

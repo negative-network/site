@@ -1,26 +1,23 @@
-<section class="bg-zinc-100">
-  <div class="flex-col items-center justify-center px-4 py-10 mx-auto md:p-40 max-w-7xl">
+<section id="contact" class="scrolled-to bg-zinc-100">
+  <div class="flex-col items-center justify-center px-4 py-10 mx-auto md:p-40 min-w-[40%] max-w-7xl">
     <h2
-      class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+      class="text-center text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
     >
-      Un projet ? Une question ? <br />
-      Contactez-nous !
+      Contactez-nous
     </h2>
 
-    <p class="my-10">
-      <!-- Nous vous répondons en un jour ouvré. -->
+    <p class="my-10 text-gray-300 font-normal text-center mx-auto">
+      Nous vous répondons sous 48h ouvrées.
     </p>
 
     <form
       id="my-form"
       action="https://formspree.io/f/xdknkqyz"
       method="POST"
-      class="flex flex-col max-w-md p-8 mx-auto mt-10 text-white bg-black rounded-lg child:mb-4 child:rounded"
+      class="flex flex-col p-2 mx-auto child:mb-4 child:rounded-md"
     >
-      <label for="email">Votre adresse email :</label>
-      <input type="email" name="email" class="text-black" id="email" required />
-      <label for="message">Votre message :</label>
-      <textarea name="message" rows="7" class="text-black" id="message" required></textarea>
+      <input type="email" name="email" class="text-black border-gray-300" id="email" placeholder="Votre adresse mail" required />
+      <textarea name="message" rows="7" class="text-black border-gray-300" id="message" placeholder="Votre message" required></textarea>
       <button id="my-form-button" class="px-4 py-2 text-white bg-black rounded hover:bg-white hover:text-black">Envoyer</button>
       <p id="my-form-status"></p>
     </form>

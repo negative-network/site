@@ -1,9 +1,9 @@
 ---
 import CookieComponent from "./Cookies.astro";
-import "../styles/global.css";
+import "../assets/styles.css";
 import { getImage } from "astro:assets";
 import faviconSrc from "../assets/images/logo-NN-black.png";
-import Cookies from "./Cookies.astro";
+// import Cookies from "./Cookies.astro";
 const { title, description } = Astro.props;
 const appleTouchIcon = await getImage({
   src: faviconSrc,
@@ -12,7 +12,6 @@ const appleTouchIcon = await getImage({
   format: "png",
 });
 ---
-
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
@@ -56,4 +55,41 @@ https://rsms.me/inter/
 <!---- Alpine  -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 
-<CookieComponent/>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section.scrolled-to");
+
+    sections.forEach((section, index) => {
+
+      if (typeof sections[index + 1] === "undefined") return;
+      
+      let next = document.getElementById(sections[index + 1].id);
+
+      let scrollDownLink = document.createElement("div");
+      // scrollDownLink.classList.add("flex");
+      // scrollDownLink.classList.add("flex-col");
+      // scrollDownLink.classList.add("items-center");
+      // scrollDownLink.classList.add("justify-center");
+      scrollDownLink.innerHTML = `
+                              <a href="#" class="scroll-down text-blue-400 hover:text-blue-500">
+                                <ion-icon name="chevron-down-outline" class="text-4xl animate-bounce [animation-duration:_2s]"></ion-icon>
+                              </a>`;
+
+      section.appendChild(scrollDownLink);
+
+      // section.innerHTML += scrollDownLink;
+
+      //scroll down event
+      const scrollDown = section.querySelector(".scroll-down");
+
+      if (scrollDown) {
+        scrollDown.addEventListener("click", function (e) {
+          e.preventDefault();
+          next.scrollIntoView({ behavior: "smooth" });
+        });
+      }
+    });
+  });
+</script>
+
+<CookieComponent />
