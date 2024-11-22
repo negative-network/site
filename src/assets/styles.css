@@ -23,7 +23,21 @@
 
 .bg-gradient-animation {
   background: linear-gradient(45deg, #E8E1D5, #DDD5D5, #EDEDED, #D3DCE8);
-	background-size: 1000% 1000%;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+.bg-gradient-animation-joyful {
+  background: linear-gradient(45deg,  #e29b9b, #e79762, #b9cde7, #e7b9e7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+.bg-gradient-animation-dark {
+  background: linear-gradient(45deg, #1a202c, #2d3748, #4a5568, #32353a);
+	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   min-height: 100vh;
 }

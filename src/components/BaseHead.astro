@@ -55,41 +55,6 @@ https://rsms.me/inter/
 <!---- Alpine  -->
 <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const sections = document.querySelectorAll("section.scrolled-to");
-
-    sections.forEach((section, index) => {
-
-      if (typeof sections[index + 1] === "undefined") return;
-      
-      let next = document.getElementById(sections[index + 1].id);
-
-      let scrollDownLink = document.createElement("div");
-      // scrollDownLink.classList.add("flex");
-      // scrollDownLink.classList.add("flex-col");
-      // scrollDownLink.classList.add("items-center");
-      // scrollDownLink.classList.add("justify-center");
-      scrollDownLink.innerHTML = `
-                              <a href="#" class="scroll-down text-blue-400 hover:text-blue-500">
-                                <ion-icon name="chevron-down-outline" class="text-4xl animate-bounce [animation-duration:_2s]"></ion-icon>
-                              </a>`;
-
-      section.appendChild(scrollDownLink);
-
-      // section.innerHTML += scrollDownLink;
-
-      //scroll down event
-      const scrollDown = section.querySelector(".scroll-down");
-
-      if (scrollDown) {
-        scrollDown.addEventListener("click", function (e) {
-          e.preventDefault();
-          next.scrollIntoView({ behavior: "smooth" });
-        });
-      }
-    });
-  });
-</script>
+<script src="@assets/scripts.js"></script>
 
 <CookieComponent />

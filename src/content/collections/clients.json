@@ -28,7 +28,7 @@
             "description" : "La FIDH est une ONG qui a pour mission de protéger les droits de l'homme dans le monde entier.",
             "url" : "https://fidh.org",
             "image" : "/src/assets/images/clients/portfolio/fidh.png",
-            "logo" : "/src/assets/images/clients/logos/fidh.jpg",
+            "logo" : "/src/assets/images/clients/logos/fidh.svg",
             "highlight" : true
         },
         {
@@ -60,7 +60,7 @@
             "description" : "L'AFPS est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté.",
             "url" : "https://www.france-palestine.org/",
             "image" : "/src/assets/images/clients/portfolio/afps.png",
-            "logo" : "/src/assets/images/clients/logos/afps.jpg",
+            "logo" : "/src/assets/images/clients/logos/afps.svg",
             "highlight" : true
         },
         {
@@ -390,7 +390,7 @@
             "description" : "Studio de design Lillois.",
             "url" : "https://www.piksdesign.com/",
             "image" : "/src/assets/images/clients/portfolio/piks-design.png",
-            "logo" : "/src/assets/images/clients/logos/piks.png",
+            "logo" : "/src/assets/images/clients/logos/piks.svg",
             "highlight" : true
         },
         {
@@ -431,7 +431,7 @@
             "description" : "Première Urgence Internationale est une ONG qui a pour mission de porter secours aux populations victimes de crises humanitaires.",
             "url" : "https://www.premiere-urgence.org/",
             "image" : "/src/assets/images/clients/portfolio/pui.png",
-            "logo" : "/src/assets/images/clients/logos/pui.png",
+            "logo" : "/src/assets/images/clients/logos/pui.svg",
             "highlight" : true
         },
         {

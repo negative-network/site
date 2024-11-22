@@ -4,17 +4,17 @@ import MyImage from "@components/MyImage.astro";
 import solutions from "../../content/collections/solutions.json";
 ---
 
-<section id="outils" class="scrolled-to py-24 bg-black">
+<section id="outils" class="scrolled-to py-24 bg-gradient-animation-dark">
   <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
     <h2
-      class="mb-20 text-4xl font-medium tracking-tight text-center text-white md:text-5xl font-display"
+      class="mb-10 text-4xl font-medium tracking-tight text-center text-white md:text-5xl font-display"
     >
-      Nos outils
+      Parmi nos outils
     </h2>
     <div class="flex flex-wrap items-center justify-center max-w-4xl m-auto">
       {
         solutions.map((solution) => (
-          <div class="p-4 w-1/2 md:w-auto flex items-center justify-center">
+          <div class="p-4 w-1/2 md:w-auto flex items-center justify-center hover:scale-150 transition-transform duration-200">
             <a
               href={solution.url}
               class="flex flex-col items-center justify-center"
