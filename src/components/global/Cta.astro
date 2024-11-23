@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import img from "@assets/images/contact-paperplane.svg";
 ---
 
-<section id="contact" class="scrolled-to bg-zinc-100">
+<section id="contact" class="scrolled-to bg-zinc-100 overflow-hidden">
   <div
     class="flex-col items-center justify-center px-4 py-10 mx-auto md:p-40 w-full md:max-w-[40%] 2xl:max-w-[80%]"
   >
@@ -63,30 +63,81 @@ import img from "@assets/images/contact-paperplane.svg";
       </div>
     </div>
 
+    <style>
+      #paperplane {
+        
+      }
+
+      #paperplane.move {
+        animation-iteration-count: infinite;
+        animation-name: move;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        offset-path: path(
+          "M1 323 c55-58 91-138 180-144 50-3 70 18 110 43C544 380 618-3 779 2s217 134 412 60"
+        );
+      }
+
+      #paperplane.shake {
+        animation-iteration-count: infinite;
+        animation-name: shake;
+        animation-duration: 100ms;
+      }
+
+      #paperplane.lift-off {
+        animation-iteration-count: 1;
+        animation-name: lift-off;
+        animation-duration: 3000ms;
+        animation-delay: 1000ms;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes move {
+        0% {
+          offset-distance: 0%;
+        }
+        100% {
+          offset-distance: 100%;
+        }
+      }
+
+      @keyframes shake {
+        0% {
+          transform: rotate(1deg);
+        }
+        50% {
+          transform: rotate(-1deg);
+        }
+        100% {
+          transform: rotate(1deg);
+        }
+      }
+
+      @keyframes lift-off {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translate(100vw, -100vh);
+        }
+      }
+    </style>
+
     <script>
       let form = document.getElementById("my-form") as HTMLFormElement;
       let paperplane = document.getElementById(
         "paperplane"
       ) as HTMLImageElement;
 
-// //shake paperplane
-// setInterval(() => {
-//   paperplane.style.transform = "rotate(1deg)";
-//   setTimeout(() => {
-//     paperplane.style.transform = "rotate(-1deg)";
-//   }, 100);
-// }, 200);
-
-              // //move paperplane slowly outside of the screen
-              // let position = 0;
-              // setInterval(() => {
-              //   position += 1;
-              //   // paperplane.style.transform = `translate(${2 * position}px, ${-position}px)  rotate(${position}deg)`;
-              //   paperplane.style.transform = `translate(${2 * position}px, ${-position}px)`;
-              // }, 5);
+      // form.addEventListener("change", function () {
+      //   paperplane.classList.add("shake");
+      // });
 
       async function handleSubmit(event) {
         event.preventDefault();
+
+        paperplane.classList.add("shake");
 
         let status = document.getElementById("my-form-status");
         let data = new FormData(event.target);
@@ -99,8 +150,8 @@ import img from "@assets/images/contact-paperplane.svg";
         })
           .then((response) => {
             if (response.ok) {
-
-
+              paperplane.classList.remove("shake");
+              paperplane.classList.add("lift-off");
               status.innerHTML = "Votre message a bien été envoyé !";
               form.reset();
             } else {
