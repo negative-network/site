@@ -18,7 +18,7 @@ import clients from "@content/collections/clients.json";
           .filter((client) => client.highlight)
           .map((client) => (
             <div class="flex-col items-center justify-center p-4 m-4">
-              <a href={client.url} target="_blank" title={client.name}>
+              <a href={client.url} target="_blank" title={client.name+" : "+client.description}>
                 {client.logo ? (
                   <MyImage
                     imageSrc={client.logo}

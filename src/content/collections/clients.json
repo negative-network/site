@@ -1,519 +1,532 @@
 [
-        {
-            "tags" : "wp ooii ong institutionnel highlight",
-            "name" : "Acatfrance",
-            "location" : "Paris, France",
-            "description" : "L'ACAT est une ONG qui lutte contre la torture et la peine de mort.",
-            "url" : "https://acatfrance.fr/",
-            "image" : "/src/assets/images/clients/portfolio/acatfrance.png",
-            "logo" : "/src/assets/images/clients/logos/acat.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii highlight",
-            "name" : "Ad's up Consulting",
-            "location" : "Paris, France",
-            "description" :
-                "Ad's up est le leader français de la communication digitale. Depuis plus de 10 ans, nous nous occupons du développement des sites d'Ad's up.",
-            "url" : "https://ads-up.fr/",
-            "image" : "/src/assets/images/clients/portfolio/adsup.png",
-            "large" : true,
-            "logo" : "/src/assets/images/clients/logos/adsup.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii ong spip highlight institutionnel",
-            "name" : "FIDH",
-            "location" : "Paris, France",
-            "description" : "La FIDH est une ONG qui a pour mission de protéger les droits de l'homme dans le monde entier.",
-            "url" : "https://fidh.org",
-            "image" : "/src/assets/images/clients/portfolio/fidh.png",
-            "logo" : "/src/assets/images/clients/logos/fidh.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "formations highlight",
-            "name" : "Université Grenoble Alpes",
-            "location" : "Grenoble, France",
-            "description" :
-                "Nous enseignons le développement web à l'Université Grenoble Alpes, ainsi que d'autres langages de programmation : Java, Scheme, techniques d'IA et Angular .",
-            "url" : "https://shs.univ-grenoble-alpes.fr/",
-            "image" : "/src/assets/images/clients/portfolio/uga.png",
-            "logo" : "/src/assets/images/clients/logos/uga-shs.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii ong institutionnel highlight",
-            "name" : "Acting For Life",
-            "location" : "Paris, France",
-            "description" :
-                "Acting For Life est une ONG qui a pour mission de lutter contre la pauvreté et l'exclusion.",
-            "url" : "https://acatfrance.Fr.fr/",
-            "image" : "/src/assets/images/clients/portfolio/afl.png",
-            "logo" : "/src/assets/images/clients/logos/afl.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii ong institutionnel",
-            "name" : "AFPS",
-            "location" : "Paris, France",
-            "description" : "L'AFPS est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté.",
-            "url" : "https://www.france-palestine.org/",
-            "image" : "/src/assets/images/clients/portfolio/afps.png",
-            "logo" : "/src/assets/images/clients/logos/afps.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii shop highlight",
-            "name" : "Esperito de Comporta",
-            "location" : "Comporta, Portugal",
-            "description" :
-                "Esperito de Comporta est un projet immobilier de luxe.",
-            "url" : "https://espiritodacomporta.com/",
-            "image" : "/src/assets/images/clients/portfolio/espiritodacomporta.png",
-            "logo" : "/src/assets/images/clients/logos/esperito-de-comporta.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii mini ong ",
-            "name" : "AVSF Agroécologie",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF sur l'agroécologie.",
-            "url" : "http://avsf-agroecologie.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-agroecologie.png"
-        },
-        {
-            "tags" : "wp ooii mini ong",
-            "name" : "AVSF Biodiversité",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF sur la Biodiversité.",
-            "url" : "https://cultivons-la-biodiversite.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-biodiversite.png"
-        },
-        {
-            "tags" : "wp ooii mini ong ",
-            "name" : "AVSF Consultation",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://consultation.avsf.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-consultation.png"
-        },
-        {
-            "tags" : "wp ooii mini ong ",
-            "name" : "AVSF Elevage",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://sauvonslelevagepaysan.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-elevage.png"
-        },
-        {
-            "tags" : "wp mindme mini ong ",
-            "name" : "AVSF Semences",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://semezlechangement.avsf.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-paysans.png"
-        },
-        {
-            "tags" : "wp lefebvre mini ong ",
-            "name" : "AVSF Pesticides",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "http://stop-pesticide.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-pesticides.png"
-        },
-        {
-            "tags" : "wp ooii mini ong",
-            "name" : "AVSF Plus près",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://plus-pres-plus-sain-plus-juste.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-plus-pres.png"
-        },
-        {
-            "tags" : "wp cito mini ong",
-            "name" : "AVSF Progrès",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://narretonspasleprogres.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-progres.png"
-        },
-        {
-            "tags" : "wp mindme mini ong",
-            "name" : "AVSF Semez",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://www.semezlechangement.avsf.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-semons.png"
-        },
-        {
-            "tags" : "wp mindme mini ong",
-            "name" : "AVSF Spéculation",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://speculation-alimentaire.fr/",
-            "image" : "/src/assets/images/clients/portfolio/avsf-speculation.png"
-        },
-        {
-            "tags" : "wp ooii ong institutionnel",
-            "name" : "AVSF",
-            "location" : "Paris, France",
-            "description" : "Un mini-site pour l'ONG AVSF.",
-            "url" : "https://avsf.org/",
-            "image" : "/src/assets/images/clients/portfolio/avsf.png",
-            "logo" : "/src/assets/images/clients/logos/avsf.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii shop ong institutionnel highlight",
-            "name" : "BICE",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Le BICE est une ONG qui a pour mission de protéger les enfants dans le monde entier.",
-            "url" : "https://bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice.png",
-            "logo" : "/src/assets/images/clients/logos/bice.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp mini ong",
-            "name" : "BICE Noël",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Un mini-site pour l'ONG BICE.",
-            "url" : "https://bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice.png"
-        },
-        {
-            "tags" : "wp mini ong",
-            "name" : "BICE Carême",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Un mini-site pour l'ONG BICE.",
-            "url" : "https://bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice.png"
-        },
-        {
-            "tags" : "wp mini ong",
-            "name" : "BICE Fil Rouge",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Un mini-site pour l'ONG BICE.",
-            "url" : "https://bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice.png"
-        },
-        {
-            "tags" : "wp ong formations highlight",
-            "name" : "BICE Documentation",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Site de ressources documentaires du BICE",
-            "url" : "https://documentation.bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice-documentation.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "BMID",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/bmid.png"
-        },
-        {
-            "tags" : "wp ooii",
-            "name" : "BP2R",
-            "location" : "Paris, France",
-            "description" :
-                "BP2R est un cabinet de conseil leader en optimisation du transport de marchandises. Nous nous occupons de leurs sites internets.",
-            "url" : "https://bp2r.eu/",
-            "image" : "/src/assets/images/clients/portfolio/bp2r.png",
-            "large" : true,
-            "logo" : "/src/assets/images/clients/logos/bp2r.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "formations highlight",
-            "name" : "CESI",
-            "location" : "Grenoble, France",
-            "description" : "Le CESI est une école d'ingénieurs. Nous enseignons le développement web à leurs étudiants.",
-            "url" : "https://grenoble.cesi.fr/",
-            "image" : "/src/assets/images/clients/portfolio/cesi.png",
-            "logo" : "/src/assets/images/clients/logos/cesi.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp",
-            "name" : "CPTS Solidar",
-            "location" : "Romans sur Isère, France",
-            "description" : "",
-            "url" : "https://www.cpts-solidar.fr/",
-            "image" : "/src/assets/images/clients/portfolio/cpts.png"
-        },
-        {
-            "tags" : "wp old",
-            "name" : "Dapledge",
-            "location" : "Berlin, Allemagne",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/dapledge.png"
-        },
-        {
-            "tags" : "wp mini ong",
-            "name" : "BICE - Enfances dans le monde",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Un mini-site pour l'ONG BICE.",
-            "url" : "https://bice.org/fr/actualites/festival-enfances-dans-le-monde/",
-            "image" : "/src/assets/images/clients/portfolio/edm.png"
-        },
-        {
-            "tags" : "wp ooii",
-            "name" : "Entre autre",
-            "location" : "Paris, France",
-            "description" : "",
-            "url" : "https://www.entreautre.com/",
-            "image" : "/src/assets/images/clients/portfolio/entreautre.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "Erased Tapes",
-            "location" : "Berlin, Allemagne, Londres, Royaume-Uni",
-            "description" : "Un label de musique indépendant.",
-            "url" : "https://www.erasedtapes.com/",
-            "image" : "/src/assets/images/clients/portfolio/erasedtapes.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "Erased Tapes Publishing",
-            "location" : "Berlin, Allemagne, Londres, Royaume-Uni",
-            "description" : "Un label de musique indépendant.",
-            "url" : "https://www.erasedtapesmusic.com/",
-            "image" : "/src/assets/images/clients/portfolio/erasedtapes-publishing.png"
-        },
-        {
-            "tags" : "wp",
-            "name" : "ESTHI",
-            "location" : "Saint Martin d'Hères, France",
-            "description" : "",
-            "url" : "https://www.esthi.fr/",
-            "image" : "/src/assets/images/clients/portfolio/esthi.png"
-        },
-        {
-            "tags" : "wp",
-            "name" : "Ethiquable",
-            "location" : "Paris, France",
-            "description" : "",
-            "url" : "https://www.ethiquable.coop/",
-            "image" : "/src/assets/images/clients/portfolio/ethiquable.png"
-        },
-        {
-            "tags" : "formations",
-            "name" : "Handigital Formation",
-            "location" : "Grenoble, France",
-            "description" : "Handigital Formation est un organisme de formation spécialisé dans le digital. Nous enseignons le développement web à leurs étudiants.",
-            "url" : "https://handigital-formation.com/",
-            "image" : "/src/assets/images/clients/portfolio/handigital.png",
-            "logo" : "/src/assets/images/clients/logos/handigital.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii",
-            "name" : "Hikarimiso",
-            "location" : "Paris, France, Tokyo, Japon",
-            "description" : "",
-            "url" : "http://hikarimiso.fr/",
-            "image" : "/src/assets/images/clients/portfolio/hikarimiso.png"
-        },
-        {
-            "tags" : "wp shop",
-            "name" : "Inland Waterways International",
-            "location" : "London, Royaume-Uni",
-            "description" : "",
-            "url" : "https://inlandwaterwaysinternational.org/",
-            "image" : "/src/assets/images/clients/portfolio/iwi.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "KLID",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/klid.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "La Fonction",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/la-fonction.png"
-        },
-        {
-            "tags" : "wp old",
-            "name" : "Le Sport Dauphinois",
-            "location" : "Grenoble, France",
-            "description" : "",
-            "url" : "https://lesportdauphinois.com/",
-            "image" : "/src/assets/images/clients/portfolio/le-sport-dauphinois.png"
-        },
-        {
-            "tags" : "wp kitchenette",
-            "name" : "OPSP",
-            "location" : "Grenoble, France",
-            "description" : "Observatoire de la Parentalité et du Soutien à la Parentalité",
-            "url" : "https://opsp.fr/",
-            "image" : "/src/assets/images/clients/portfolio/opsp.png",
-            "logo" : "/src/assets/images/clients/logos/opsp.jpg"
-        },
-        {
-            "tags" : "wp kitchenette",
-            "name" : "OTCRA",
-            "location" : "Grenoble, France",
-            "description" : "Observatoire Territorial des Conduites à Risque de l'Adolescent",
-            "url" : "https://otcra.fr/",
-            "image" : "/src/assets/images/clients/portfolio/otcra.png",
-            "logo" : "/src/assets/images/clients/logos/otcra.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "laravel",
-            "name" : "Passeport Compétences (Application)",
-            "location" : "Grenoble, France",
-            "description" : "Application RH pour personnes en situation de handicap.",
-            "url" : "https://app.passeportcompetences.com/",
-            "image" : "/src/assets/images/clients/portfolio/passeport-app.png"
-        },
-        {
-            "tags" : "wp",
-            "name" : "Passeport Compétences (Site)",
-            "location" : "Grenoble, France",
-            "description" : "Site internet de Passeport Compétences",
-            "url" : "https://passeportcompetences.com/",
-            "image" : "/src/assets/images/clients/portfolio/passeport.png",
-            "logo" : "/src/assets/images/clients/logos/pc.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii",
-            "name" : "PIKS Design",
-            "location" : "Lille, France",
-            "description" : "Studio de design Lillois.",
-            "url" : "https://www.piksdesign.com/",
-            "image" : "/src/assets/images/clients/portfolio/piks-design.png",
-            "logo" : "/src/assets/images/clients/logos/piks.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii highlight",
-            "name" : "Piscina",
-            "location" : "Fonte da Tehla, Portugal",
-            "description" : "Piscina est un restaurant au pied des falaises de Fonte da Telha, près de Lisbonne.",
-            "url" : "https://praiapiscina.pt/",
-            "image" : "/src/assets/images/clients/portfolio/praiapiscina.png",
-            "logo" : "/src/assets/images/clients/logos/piscina.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii highlight",
-            "name" : "Ō Bistro",
-            "location" : "Lisbon, Portugal",
-            "description" : "Ō Bistro est une tasca de Lisbonne \"à la parisienne\"",
-            "url" : "https://obistro.pt/",
-            "image" : "/src/assets/images/clients/portfolio/obistro.png",
-            "logo" : "/src/assets/images/clients/logos/obistro.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ong institutionnel become-creative shop highlight",
-            "name" : "Primo Levi (Site)",
-            "location" : "Paris, France",
-            "description" :
-                "Primo Levi est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté. Nous nous occupons de leurs sites internets.",
-            "url" : "https://primolevi.org/",
-            "image" : "/src/assets/images/clients/portfolio/primolevi.png",
-            "logo" : "/src/assets/images/clients/logos/primolevi.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ong institutionnel",
-            "name" : "Première Urgence Internationale",
-            "location" : "Paris, France",
-            "description" : "Première Urgence Internationale est une ONG qui a pour mission de porter secours aux populations victimes de crises humanitaires.",
-            "url" : "https://www.premiere-urgence.org/",
-            "image" : "/src/assets/images/clients/portfolio/pui.png",
-            "logo" : "/src/assets/images/clients/logos/pui.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ong institutionnel",
-            "name" : "Queme",
-            "location" : "Vietnam",
-            "description" : "Queme est une ONG qui a pour mission de défendre les droits de l'homme au Vietnam.",
-            "url" : "https://queme.org/",
-            "image" : "/src/assets/images/clients/portfolio/queme.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "Sylvain Becquart",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/sb.png"
-        },
-        {
-            "tags" : "wp ooii old",
-            "name" : "SBAI",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/sbai.png"
-        },
-        {
-            "tags" : "wp ooii highlight",
-            "name" : "Sightness",
-            "location" : "Paris, France",
-            "description" : "Plateforme d'analytique avancée dédiée à la performance transport.",
-            "url" : "https://sightness.com/",
-            "image" : "/src/assets/images/clients/portfolio/sightness.png",
-            "logo" : "/src/assets/images/clients/logos/sightness.svg",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp ooii highlight",
-            "name" : "Studio Seer",
-            "location" : "Paris, France",
-            "description" : "Studio Seer est un studio de création digital. Nous nous occupons de leur site internet",
-            "url" : "https://studio-seer.com/",
-            "image" : "/src/assets/images/clients/portfolio/studio-seer.png",
-            "logo" : "/src/assets/images/clients/logos/seer.png",
-            "highlight" : true
-        },
-        {
-            "tags" : "wp old",
-            "name" : "Transmanche",
-            "location" : "Paris, France",
-            "description" : "",
-            "image" : "/src/assets/images/clients/portfolio/transmanche.png"
-        },
-        {
-            "tags" : "wp ong shop formations",
-            "name" : "Primo Levi (Formations)",
-            "location" : "Paris, France",
-            "description" : "Centre de formation de l'ONG Primo Levi",
-            "url" : "https://formation.primolevi.org/",
-            "image" : "/src/assets/images/clients/portfolio/primolevi.png"
-        },
-        {
-            "tags" : "wp formations ong",
-            "name" : "BICE (Formations)",
-            "location" : "Paris, France, Genève, Suisse",
-            "description" : "Le BICE est une ONG qui a pour mission de protéger les enfants dans le monde entier.",
-            "url" : "https://bice.org/",
-            "image" : "/src/assets/images/clients/portfolio/bice.png"
-        },
-        {
-            "tags" : "wp ooii",
-            "name" : "Volume2 architecture",
-            "location" : "Grenoble, France",
-            "description" : "",
-            "url" : "https://volume2.archi",
-            "image" : "/src/assets/images/clients/portfolio/volume2.png"
-        },
-        {
-            "tags" : "wp",
-            "name" : "Zamora Architecture",
-            "location" : "Grenoble, France",
-            "description" : "",
-            "url" : "http://www.estebanzamora.com/",
-            "image" : "/src/assets/images/clients/portfolio/zamora.png"
-        }
+  {
+    "tags": "wp ooii ong institutionnel highlight",
+    "name": "Acatfrance",
+    "location": "Paris, France",
+    "description": "L'ACAT est une ONG qui lutte contre la torture et la peine de mort.",
+    "url": "https://acatfrance.fr/",
+    "image": "/src/assets/images/clients/portfolio/acatfrance.png",
+    "logo": "/src/assets/images/clients/logos/acat.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii highlight",
+    "name": "Ad's up Consulting",
+    "location": "Paris, France",
+    "description": "Ad's up est le leader français de la communication digitale. Depuis plus de 10 ans, nous nous occupons du développement des sites d'Ad's up.",
+    "url": "https://ads-up.fr/",
+    "image": "/src/assets/images/clients/portfolio/adsup.png",
+    "large": true,
+    "logo": "/src/assets/images/clients/logos/adsup.svg",
+    "highlight": true
+  },
+  {
+    "tags": "highlight",
+    "name": "ecoCO2",
+    "location": "Paris, France",
+    "description": "Eco CO2 accompagne les entreprises et les collectivités dans leurs pratiques environnementales, sociales et de gouvernance pour construire un nouveau modèle économique performant et responsable.",
+    "url": "https://www.ecoco2.com/",
+    "image": "/src/assets/images/clients/portfolio/ecoco2.png",
+    "logo": "/src/assets/images/clients/logos/ecoco2.png",
+    "highlight": true
+  },
+  {
+    "tags": "highlight",
+    "name": "Reunir",
+    "location": "Paris, France",
+    "description": "Le 1er Groupe Associatif français de PME indépendantes du Transport Routier de Voyageurs.",
+    "url": "https://reunir.org/",
+    "image": "/src/assets/images/clients/portfolio/reunir.png",
+    "logo": "/src/assets/images/clients/logos/reunir.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii ong spip highlight institutionnel",
+    "name": "FIDH",
+    "location": "Paris, France",
+    "description": "La FIDH est une ONG qui a pour mission de protéger les droits de l'homme dans le monde entier.",
+    "url": "https://fidh.org",
+    "image": "/src/assets/images/clients/portfolio/fidh.png",
+    "logo": "/src/assets/images/clients/logos/fidh.svg",
+    "highlight": true
+  },
+  {
+    "tags": "formations highlight",
+    "name": "Université Grenoble Alpes",
+    "location": "Grenoble, France",
+    "description": "Nous enseignons le développement web à l'Université Grenoble Alpes, ainsi que d'autres langages de programmation : Java, Scheme, techniques d'IA et Angular .",
+    "url": "https://shs.univ-grenoble-alpes.fr/",
+    "image": "/src/assets/images/clients/portfolio/uga.png",
+    "logo": "/src/assets/images/clients/logos/uga-shs.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii ong institutionnel highlight",
+    "name": "Acting For Life",
+    "location": "Paris, France",
+    "description": "Acting For Life est une ONG qui a pour mission de lutter contre la pauvreté et l'exclusion.",
+    "url": "https://acatfrance.Fr.fr/",
+    "image": "/src/assets/images/clients/portfolio/afl.png",
+    "logo": "/src/assets/images/clients/logos/afl.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii ong institutionnel",
+    "name": "AFPS",
+    "location": "Paris, France",
+    "description": "L'AFPS est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté.",
+    "url": "https://www.france-palestine.org/",
+    "image": "/src/assets/images/clients/portfolio/afps.png",
+    "logo": "/src/assets/images/clients/logos/afps.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii shop highlight",
+    "name": "Esperito de Comporta",
+    "location": "Comporta, Portugal",
+    "description": "Esperito de Comporta est un projet immobilier de luxe.",
+    "url": "https://espiritodacomporta.com/",
+    "image": "/src/assets/images/clients/portfolio/espiritodacomporta.png",
+    "logo": "/src/assets/images/clients/logos/esperito-de-comporta.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii mini ong ",
+    "name": "AVSF Agroécologie",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF sur l'agroécologie.",
+    "url": "http://avsf-agroecologie.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-agroecologie.png"
+  },
+  {
+    "tags": "wp ooii mini ong",
+    "name": "AVSF Biodiversité",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF sur la Biodiversité.",
+    "url": "https://cultivons-la-biodiversite.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-biodiversite.png"
+  },
+  {
+    "tags": "wp ooii mini ong ",
+    "name": "AVSF Consultation",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://consultation.avsf.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-consultation.png"
+  },
+  {
+    "tags": "wp ooii mini ong ",
+    "name": "AVSF Elevage",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://sauvonslelevagepaysan.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-elevage.png"
+  },
+  {
+    "tags": "wp mindme mini ong ",
+    "name": "AVSF Semences",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://semezlechangement.avsf.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-paysans.png"
+  },
+  {
+    "tags": "wp lefebvre mini ong ",
+    "name": "AVSF Pesticides",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "http://stop-pesticide.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-pesticides.png"
+  },
+  {
+    "tags": "wp ooii mini ong",
+    "name": "AVSF Plus près",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://plus-pres-plus-sain-plus-juste.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-plus-pres.png"
+  },
+  {
+    "tags": "wp cito mini ong",
+    "name": "AVSF Progrès",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://narretonspasleprogres.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-progres.png"
+  },
+  {
+    "tags": "wp mindme mini ong",
+    "name": "AVSF Semez",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://www.semezlechangement.avsf.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf-semons.png"
+  },
+  {
+    "tags": "wp mindme mini ong",
+    "name": "AVSF Spéculation",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://speculation-alimentaire.fr/",
+    "image": "/src/assets/images/clients/portfolio/avsf-speculation.png"
+  },
+  {
+    "tags": "wp ooii ong institutionnel",
+    "name": "AVSF",
+    "location": "Paris, France",
+    "description": "Un mini-site pour l'ONG AVSF.",
+    "url": "https://avsf.org/",
+    "image": "/src/assets/images/clients/portfolio/avsf.png",
+    "logo": "/src/assets/images/clients/logos/avsf.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii shop ong institutionnel highlight",
+    "name": "BICE",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Le BICE est une ONG qui a pour mission de protéger les enfants dans le monde entier.",
+    "url": "https://bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice.png",
+    "logo": "/src/assets/images/clients/logos/bice.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp mini ong",
+    "name": "BICE Noël",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Un mini-site pour l'ONG BICE.",
+    "url": "https://bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice.png"
+  },
+  {
+    "tags": "wp mini ong",
+    "name": "BICE Carême",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Un mini-site pour l'ONG BICE.",
+    "url": "https://bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice.png"
+  },
+  {
+    "tags": "wp mini ong",
+    "name": "BICE Fil Rouge",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Un mini-site pour l'ONG BICE.",
+    "url": "https://bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice.png"
+  },
+  {
+    "tags": "wp ong formations highlight",
+    "name": "BICE Documentation",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Site de ressources documentaires du BICE",
+    "url": "https://documentation.bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice-documentation.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "BMID",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/bmid.png"
+  },
+  {
+    "tags": "wp ooii",
+    "name": "BP2R",
+    "location": "Paris, France",
+    "description": "BP2R est un cabinet de conseil leader en optimisation du transport de marchandises. Nous nous occupons de leurs sites internets.",
+    "url": "https://www.pwc.fr/fr/espace-presse/communiques-de-presse/2023/septembre/acquisition-de-bp2r.html",
+    "image": "/src/assets/images/clients/portfolio/bp2r.png",
+    "large": true,
+    "logo": "/src/assets/images/clients/logos/bp2r.png",
+    "highlight": true
+  },
+  {
+    "tags": "formations highlight",
+    "name": "CESI",
+    "location": "Grenoble, France",
+    "description": "Le CESI est une école d'ingénieurs. Nous enseignons le développement web à leurs étudiants.",
+    "url": "https://grenoble.cesi.fr/",
+    "image": "/src/assets/images/clients/portfolio/cesi.png",
+    "logo": "/src/assets/images/clients/logos/cesi.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp",
+    "name": "CPTS Solidar",
+    "location": "Romans sur Isère, France",
+    "description": "",
+    "url": "https://www.cpts-solidar.fr/",
+    "image": "/src/assets/images/clients/portfolio/cpts.png"
+  },
+  {
+    "tags": "wp old",
+    "name": "Dapledge",
+    "location": "Berlin, Allemagne",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/dapledge.png"
+  },
+  {
+    "tags": "wp mini ong",
+    "name": "BICE - Enfances dans le monde",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Un mini-site pour l'ONG BICE.",
+    "url": "https://bice.org/fr/actualites/festival-enfances-dans-le-monde/",
+    "image": "/src/assets/images/clients/portfolio/edm.png"
+  },
+  {
+    "tags": "wp ooii",
+    "name": "Entre autre",
+    "location": "Paris, France",
+    "description": "",
+    "url": "https://www.entreautre.com/",
+    "image": "/src/assets/images/clients/portfolio/entreautre.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "Erased Tapes",
+    "location": "Berlin, Allemagne, Londres, Royaume-Uni",
+    "description": "Un label de musique indépendant.",
+    "url": "https://www.erasedtapes.com/",
+    "image": "/src/assets/images/clients/portfolio/erasedtapes.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "Erased Tapes Publishing",
+    "location": "Berlin, Allemagne, Londres, Royaume-Uni",
+    "description": "Un label de musique indépendant.",
+    "url": "https://www.erasedtapesmusic.com/",
+    "image": "/src/assets/images/clients/portfolio/erasedtapes-publishing.png"
+  },
+  {
+    "tags": "wp",
+    "name": "ESTHI",
+    "location": "Saint Martin d'Hères, France",
+    "description": "",
+    "url": "https://www.esthi.fr/",
+    "image": "/src/assets/images/clients/portfolio/esthi.png"
+  },
+  {
+    "tags": "wp",
+    "name": "Ethiquable",
+    "location": "Paris, France",
+    "description": "",
+    "url": "https://www.ethiquable.coop/",
+    "image": "/src/assets/images/clients/portfolio/ethiquable.png"
+  },
+  {
+    "tags": "formations",
+    "name": "Handigital Formation",
+    "location": "Grenoble, France",
+    "description": "Handigital Formation est un organisme de formation spécialisé dans le digital. Nous enseignons le développement web à leurs étudiants.",
+    "url": "https://handigital-formation.com/",
+    "image": "/src/assets/images/clients/portfolio/handigital.png",
+    "logo": "/src/assets/images/clients/logos/handigital.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii",
+    "name": "Hikarimiso",
+    "location": "Paris, France, Tokyo, Japon",
+    "description": "",
+    "url": "http://hikarimiso.fr/",
+    "image": "/src/assets/images/clients/portfolio/hikarimiso.png"
+  },
+  {
+    "tags": "wp shop",
+    "name": "Inland Waterways International",
+    "location": "London, Royaume-Uni",
+    "description": "",
+    "url": "https://inlandwaterwaysinternational.org/",
+    "image": "/src/assets/images/clients/portfolio/iwi.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "KLID",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/klid.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "La Fonction",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/la-fonction.png"
+  },
+  {
+    "tags": "wp old",
+    "name": "Le Sport Dauphinois",
+    "location": "Grenoble, France",
+    "description": "",
+    "url": "https://lesportdauphinois.com/",
+    "image": "/src/assets/images/clients/portfolio/le-sport-dauphinois.png"
+  },
+  {
+    "tags": "wp kitchenette",
+    "name": "OPSP",
+    "location": "Grenoble, France",
+    "description": "Observatoire de la Parentalité et du Soutien à la Parentalité",
+    "url": "https://opsp.fr/",
+    "image": "/src/assets/images/clients/portfolio/opsp.png",
+    "logo": "/src/assets/images/clients/logos/opsp.jpg"
+  },
+  {
+    "tags": "wp kitchenette",
+    "name": "OTCRA",
+    "location": "Grenoble, France",
+    "description": "Observatoire Territorial des Conduites à Risque de l'Adolescent",
+    "url": "https://otcra.fr/",
+    "image": "/src/assets/images/clients/portfolio/otcra.png",
+    "logo": "/src/assets/images/clients/logos/otcra.svg",
+    "highlight": true
+  },
+  {
+    "tags": "laravel",
+    "name": "Passeport Compétences (Application)",
+    "location": "Grenoble, France",
+    "description": "Application RH pour personnes en situation de handicap.",
+    "url": "https://app.passeportcompetences.com/",
+    "image": "/src/assets/images/clients/portfolio/passeport-app.png"
+  },
+  {
+    "tags": "wp",
+    "name": "Passeport Compétences (Site)",
+    "location": "Grenoble, France",
+    "description": "Site internet de Passeport Compétences",
+    "url": "https://passeportcompetences.com/",
+    "image": "/src/assets/images/clients/portfolio/passeport.png",
+    "logo": "/src/assets/images/clients/logos/pc.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii",
+    "name": "PIKS Design",
+    "location": "Lille, France",
+    "description": "Studio de design Lillois.",
+    "url": "https://www.piksdesign.com/",
+    "image": "/src/assets/images/clients/portfolio/piks-design.png",
+    "logo": "/src/assets/images/clients/logos/piks.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii highlight",
+    "name": "Piscina",
+    "location": "Fonte da Tehla, Portugal",
+    "description": "Piscina est un restaurant au pied des falaises de Fonte da Telha, près de Lisbonne.",
+    "url": "https://praiapiscina.pt/",
+    "image": "/src/assets/images/clients/portfolio/praiapiscina.png",
+    "logo": "/src/assets/images/clients/logos/piscina.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii highlight",
+    "name": "Ō Bistro",
+    "location": "Lisbon, Portugal",
+    "description": "Ō Bistro est une tasca de Lisbonne \"à la parisienne\"",
+    "url": "https://obistro.pt/",
+    "image": "/src/assets/images/clients/portfolio/obistro.png",
+    "logo": "/src/assets/images/clients/logos/obistro.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ong institutionnel become-creative shop highlight",
+    "name": "Primo Levi (Site)",
+    "location": "Paris, France",
+    "description": "Primo Levi est une ONG qui a pour mission de lutter contre l'exclusion et la pauvreté. Nous nous occupons de leurs sites internets.",
+    "url": "https://primolevi.org/",
+    "image": "/src/assets/images/clients/portfolio/primolevi.png",
+    "logo": "/src/assets/images/clients/logos/primolevi.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ong institutionnel",
+    "name": "Première Urgence Internationale",
+    "location": "Paris, France",
+    "description": "Première Urgence Internationale est une ONG qui a pour mission de porter secours aux populations victimes de crises humanitaires.",
+    "url": "https://www.premiere-urgence.org/",
+    "image": "/src/assets/images/clients/portfolio/pui.png",
+    "logo": "/src/assets/images/clients/logos/pui.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ong institutionnel",
+    "name": "Queme",
+    "location": "Vietnam",
+    "description": "Queme est une ONG qui a pour mission de défendre les droits de l'homme au Vietnam.",
+    "url": "https://queme.org/",
+    "image": "/src/assets/images/clients/portfolio/queme.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "Sylvain Becquart",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/sb.png"
+  },
+  {
+    "tags": "wp ooii old",
+    "name": "SBAI",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/sbai.png"
+  },
+  {
+    "tags": "wp ooii highlight",
+    "name": "Sightness",
+    "location": "Paris, France",
+    "description": "Plateforme d'analytique avancée dédiée à la performance transport.",
+    "url": "https://sightness.com/",
+    "image": "/src/assets/images/clients/portfolio/sightness.png",
+    "logo": "/src/assets/images/clients/logos/sightness.svg",
+    "highlight": true
+  },
+  {
+    "tags": "wp ooii highlight",
+    "name": "Studio Seer",
+    "location": "Paris, France",
+    "description": "Studio Seer est un studio de création digital. Nous nous occupons de leur site internet",
+    "url": "https://studio-seer.com/",
+    "image": "/src/assets/images/clients/portfolio/studio-seer.png",
+    "logo": "/src/assets/images/clients/logos/seer.png",
+    "highlight": true
+  },
+  {
+    "tags": "wp old",
+    "name": "Transmanche",
+    "location": "Paris, France",
+    "description": "",
+    "image": "/src/assets/images/clients/portfolio/transmanche.png"
+  },
+  {
+    "tags": "wp ong shop formations",
+    "name": "Primo Levi (Formations)",
+    "location": "Paris, France",
+    "description": "Centre de formation de l'ONG Primo Levi",
+    "url": "https://formation.primolevi.org/",
+    "image": "/src/assets/images/clients/portfolio/primolevi.png"
+  },
+  {
+    "tags": "wp formations ong",
+    "name": "BICE (Formations)",
+    "location": "Paris, France, Genève, Suisse",
+    "description": "Le BICE est une ONG qui a pour mission de protéger les enfants dans le monde entier.",
+    "url": "https://bice.org/",
+    "image": "/src/assets/images/clients/portfolio/bice.png"
+  },
+  {
+    "tags": "wp ooii",
+    "name": "Volume2 architecture",
+    "location": "Grenoble, France",
+    "description": "",
+    "url": "https://volume2.archi",
+    "image": "/src/assets/images/clients/portfolio/volume2.png"
+  },
+  {
+    "tags": "wp",
+    "name": "Zamora Architecture",
+    "location": "Grenoble, France",
+    "description": "",
+    "url": "http://www.estebanzamora.com/",
+    "image": "/src/assets/images/clients/portfolio/zamora.png"
+  }
 ]
-  
