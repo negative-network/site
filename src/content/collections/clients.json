@@ -177,8 +177,7 @@
     "description": "Un mini-site pour l'ONG AVSF.",
     "url": "https://avsf.org/",
     "image": "/src/assets/images/clients/portfolio/avsf.png",
-    "logo": "/src/assets/images/clients/logos/avsf.svg",
-    "highlight": true
+    "logo": "/src/assets/images/clients/logos/avsf.svg"
   },
   {
     "tags": "wp ooii shop ong institutionnel highlight",
