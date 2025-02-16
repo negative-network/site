@@ -10,9 +10,9 @@
       }
     ],
     "paragraphs": [
-      "J'ai commencé ma carrière en 2008 en tant que développeur PHP, puis j'ai développé mes compétences au fil des années en travaillant pour des agences web et des startups.",
-      "Je suis spécialiste des bases de données, de la programmation orientée objet et de l'architecture logicielle.",
-      "Ayant collaboré avec des designers et directeurs artistiques, des chargés de communication, des techniciens, des responsables, j’ai l’habitude de communiquer avec les différents acteurs des projets."
+      "Après des études en informatique j'ai débuté ma carrière de développeur web en 2007. J'ai travaillé pour différentes agences et entreprises en France et à l'étranger avant de créer l'agence web NN en 2011.",
+      "Je suis un chef de projet et développeur full stack avec des affinités particulières dans les migrations de données.",
+      "Depuis 2018 je donne des formations professionnelles à des personnes en situations de handicap et j'enseigne également à l'université la programmation, l'intelligence artificielle et les bases de données."
     ],
     "positions": [
       "Développeur fullstack",
@@ -51,84 +51,5 @@
       "Linux"
     ],
     "team": "nn"
-  },
-  {
-    "name": "Romain Bergaentzlé",
-    "image": "/src/assets/images/equipe/BERGAENTZLE-Romain.jpg",
-    "links": [
-      { "text": "Site", "url": "https://ooii.eu/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/romain-bergaentzl%C3%A9-9330224a"
-      }
-    ],
-    "positions": ["Directeur Artistique", "Graphiste", "UX/UI Designer"],
-    "team": "external"
-  },
-  {
-    "name": "Ad's up Consulting",
-    "image": "/src/assets/images/equipe/adsup.png",
-    "links": [
-      { "text": "Site", "url": "https://ads-up.fr/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/company/ads-up-consulting"
-      }
-    ],
-    "positions": ["Search", "SEO", "SEA", "SMM", "Analytics"],
-    "paragraphs": [],
-    "team": "external"
-  },
-  {
-    "name": "Benoit Ebely",
-    "image": "/src/assets/images/equipe/EBELY-Benoit.jpg",
-    "links": [
-      { "text": "Site", "url": "https://benoit-ebely.com/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/benoit-ebely-webdesign"
-      }
-    ],
-    "positions": ["Graphiste", "Designer", "Chef de projet"],
-    "team": "external"
-  },
-  {
-    "name": "Nina Bayol",
-    "image": "/src/assets/images/equipe/BAYOL-Nina.jpg",
-    "links": [
-      { "text": "Site", "url": "https://www.kitchenette-graphisme.com/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/nina-bayol-41024049"
-      }
-    ],
-    "positions": ["Graphiste", "Motion design", "Illustratrice", "Traductrice"],
-    "team": "external"
-  },
-  {
-    "name": "Textmaster",
-    "image": "/src/assets/images/equipe/text-master.png",
-    "links": [
-      { "text": "Site", "url": "https://www.textmaster.com/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/company/textmaster"
-      }
-    ],
-    "positions": ["Traductions"],
-    "team": "external"
-  },
-  {
-    "name": "iRaiser",
-    "image": "/src/assets/images/equipe/iraiser.png",
-    "links": [
-      { "text": "Site", "url": "https://www.iraiser.com/fr/" },
-      {
-        "text": "LinkedIn",
-        "url": "https://www.linkedin.com/company/iraiser"
-      }
-    ],
-    "positions": ["Collecte de fonds"],
-    "team": "external"
   }
 ]

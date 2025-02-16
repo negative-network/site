@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const sections = document.querySelectorAll("section.scrolled-to");
+  const sections = document.querySelectorAll(".scrolled-to");
 
   sections.forEach((section, index) => {
 
@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let next = document.getElementById(sections[index + 1].id);
 
     let scrollDownLink = document.createElement("div");
+    scrollDownLink.classList.add("absolute", "bottom-0", "left-1/2", "transform", "-translate-x-1/2", "mb-8");
     scrollDownLink.innerHTML = `
                             <a href="#" class="scroll-down text-gray-400">
                               <ion-icon name="chevron-down-outline" class="text-4xl animate-bounce [animation-duration:_2s]"></ion-icon>

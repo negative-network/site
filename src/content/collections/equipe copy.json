@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Pierre Blarre",
+    "image": "/src/assets/images/equipe/BLARRE-Pierre.jpg",
+    "links": [
+      { "text": "Site", "url": "https://erralb.com/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pierre-blarre-8b989732"
+      }
+    ],
+    "paragraphs": [
+      "J'ai commencé ma carrière en 2008 en tant que développeur PHP, puis j'ai développé mes compétences au fil des années en travaillant pour des agences web et des startups.",
+      "Je suis spécialiste des bases de données, de la programmation orientée objet et de l'architecture logicielle.",
+      "Ayant collaboré avec des designers et directeurs artistiques, des chargés de communication, des techniciens, des responsables, j’ai l’habitude de communiquer avec les différents acteurs des projets."
+    ],
+    "positions": [
+      "Développeur fullstack",
+      "Formateur",
+      "Ingénieur de contenu",
+      "Consultant",
+      "Chef de projet",
+      "Entrepreneur",
+      "PHP",
+      "IA",
+      "SQL"
+    ],
+    "team": "nn"
+  },
+  {
+    "name": "Florian Rodriguez",
+    "image": "/src/assets/images/equipe/RODRIGUEZ-Florian.jpg",
+    "links": [
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/florianrodriguez"
+      }
+    ],
+    "paragraphs": [
+      "Mon expérience en tant que développeur et administrateur système et réseau depuis plus de 15 ans m'a permis d'acquérir un savoir-faire et une maîtrise professionnelle de bon nombre de technologies informatiques, notamment dans le domaine du web.",
+      "Depuis 2018 je donne des formations professionnelles à des personnes en situations de handicap et j'enseigne également à l'université."
+    ],
+    "positions": [
+      "Développeur fullstack",
+      "Enseignant",
+      "Formateur",
+      "Administrateur système",
+      "Consultant",
+      "Chef de projet",
+      "Entrepreneur",
+      "Linux"
+    ],
+    "team": "nn"
+  },
+  {
+    "name": "Romain Bergaentzlé",
+    "image": "/src/assets/images/equipe/BERGAENTZLE-Romain.jpg",
+    "links": [
+      { "text": "Site", "url": "https://ooii.eu/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/romain-bergaentzl%C3%A9-9330224a"
+      }
+    ],
+    "positions": ["Directeur Artistique", "Graphiste", "UX/UI Designer"],
+    "team": "external"
+  },
+  {
+    "name": "Ad's up Consulting",
+    "image": "/src/assets/images/equipe/adsup.png",
+    "links": [
+      { "text": "Site", "url": "https://ads-up.fr/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/company/ads-up-consulting"
+      }
+    ],
+    "positions": ["Search", "SEO", "SEA", "SMM", "Analytics"],
+    "paragraphs": [],
+    "team": "external"
+  },
+  {
+    "name": "Benoit Ebely",
+    "image": "/src/assets/images/equipe/EBELY-Benoit.jpg",
+    "links": [
+      { "text": "Site", "url": "https://benoit-ebely.com/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/benoit-ebely-webdesign"
+      }
+    ],
+    "positions": ["Graphiste", "Designer", "Chef de projet"],
+    "team": "external"
+  },
+  {
+    "name": "Nina Bayol",
+    "image": "/src/assets/images/equipe/BAYOL-Nina.jpg",
+    "links": [
+      { "text": "Site", "url": "https://www.kitchenette-graphisme.com/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nina-bayol-41024049"
+      }
+    ],
+    "positions": ["Graphiste", "Motion design", "Illustratrice", "Traductrice"],
+    "team": "external"
+  },
+  {
+    "name": "Textmaster",
+    "image": "/src/assets/images/equipe/text-master.png",
+    "links": [
+      { "text": "Site", "url": "https://www.textmaster.com/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/company/textmaster"
+      }
+    ],
+    "positions": ["Traductions"],
+    "team": "external"
+  },
+  {
+    "name": "iRaiser",
+    "image": "/src/assets/images/equipe/iraiser.png",
+    "links": [
+      { "text": "Site", "url": "https://www.iraiser.com/fr/" },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/company/iraiser"
+      }
+    ],
+    "positions": ["Collecte de fonds"],
+    "team": "external"
+  }
+]

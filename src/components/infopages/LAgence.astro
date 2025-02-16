@@ -2,18 +2,24 @@
 import { Image } from "astro:assets";
 import Person from "../sections/Person.astro";
 import equipe from "@content/collections/equipe.json";
+import logo from "@assets/images/logo-NN.gif";
 ---
 
-<section>
+<section id="l-agence" class="scrolled-to">
   <div
     class="items-center w-full px-8 py-24 mx-auto lg:px-24 max-w-7xl md:px-12"
   >
     <div>
       <div class="relative mx-auto max-w-[40rem] pt-20 pb-24">
+        <Image
+          src={logo}
+          alt="Logo Negative Network"
+          class:list={"h-24 w-auto my-10 mx-auto"}
+        />
         <h1
-          class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display"
+          class="text-4xl font-medium tracking-tight text-black md:text-5xl font-display text-center"
         >
-          L'agence
+          L'agence 
         </h1>
       </div>
     </div>
@@ -39,36 +45,38 @@ import equipe from "@content/collections/equipe.json";
           Nous enseignons le développement à l'Université Grenoble Alpes (UGA),
           pour Handigital Formation et à l'école d'ingénieurs CESI.
         </p>
-
-        <h2 class="text-4xl">Qui sommes-nous ?</h2>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
-        {
-          equipe
-            .filter((person) => person.team == "nn")
-            .map((person) => <Person person={person} />)
-        }
-      </div>
+<section id="l-equipe" class="scrolled-to">
+  <h2 class="text-4xl">Qui sommes-nous ?</h2>
 
-      <div
+  <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+    {
+      equipe
+        .filter((person) => person.team == "nn")
+        .map((person) => <Person person={person} />)
+    }
+  </div>
+
+  <!-- <div
         class="mx-auto max-w-[40rem] prose-base prose text-gray-500 prose-h3:text-black prose-a:font-semibold prose-a:text-accent-300 hover:prose-a:text-black"
       >
-        <h2 class="text-4xl">Nos partenaires</h2>
+        <h2 class="text-4xl">Partenaires</h2>
         <p>
           Nous collaborons avec des partenaires de confiance pour répondre à
           tous les besoins de nos clients : graphistes, photographes,
           traducteurs, experts en référencement, ...
         </p>
-      </div>
+      </div> -->
 
-      <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
+  <!-- <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
         {
           equipe
             .filter((person) => person.team == "external")
             .map((person) => <Person person={person} />)
         }
-      </div>
-    </div>
-  </div>
+      </div> -->
 </section>
