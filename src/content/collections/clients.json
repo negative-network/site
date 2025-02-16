@@ -6,8 +6,7 @@
     "description": "L'ACAT est une ONG qui lutte contre la torture et la peine de mort.",
     "url": "https://acatfrance.fr/",
     "image": "/src/assets/images/clients/portfolio/acatfrance.png",
-    "logo": "/src/assets/images/clients/logos/acat.png",
-    "highlight": true
+    "logo": "/src/assets/images/clients/logos/acat.png"
   },
   {
     "tags": "wp ooii highlight",
